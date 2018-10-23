@@ -1,0 +1,16 @@
+2015-10-6
+
+FreeRTOS+STemWin移植完毕
+
+完成GUI
+
+N对1 组网 24L01+ 完毕
+
+
+缺点：只能取数据 无法写命令
+
+
+2015-10-9
+
+增添Net文件 对Address Read和Write进行封装
+（Write功能未测试）

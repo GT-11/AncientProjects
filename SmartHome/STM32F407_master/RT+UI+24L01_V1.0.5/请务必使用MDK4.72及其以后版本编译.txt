@@ -1,0 +1,26 @@
+使用MDK4.72及其以后版本是因为：
+在FreeRTOS源码的portmacro.h文件里面有这种形式的C里面嵌套汇编：
+======================
+
+#ifndef portFORCE_INLINE
+    #define portFORCE_INLINE __forceinline
+#endif
+ 
+
+static portFORCE_INLINE void vPortSetBASEPRI( uint32_t ulBASEPRI )
+{
+    __asm
+    {
+        /* Barrier instructions are not used as this function is only used to
+        lower the BASEPRI value. */
+        msr basepri, ulBASEPRI
+    }
+}
+
+
+===============================================================================
+在MDK4.54上面会报错：
+..\..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h(209): error:  #1113: Inline assembler not permitted when generating Thumb code
+
+
+早期的V8.0.0不存在这个问题。

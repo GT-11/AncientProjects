@@ -1,0 +1,585 @@
+Added Component: Designator=*1(STM32F407ZET6)
+Added Component: Designator=*2(PJ313E)
+Added Component: Designator=*3(104)
+Added Component: Designator=*4(104)
+Added Component: Designator=*5(OPA333)
+Added Component: Designator=*6(104)
+Added Component: Designator=*7(104)
+Added Component: Designator=*8(104)
+Added Component: Designator=*9(OPA333)
+Added Component: Designator=*10(104)
+Added Component: Designator=*11(3x3_10KOhm)
+Added Component: Designator=*12(PJ313E)
+Added Component: Designator=*13(AO3401)
+Added Component: Designator=*14(3x3_10KOhm)
+Added Component: Designator=*15(OPA333)
+Added Component: Designator=*16(104)
+Added Component: Designator=*17(104)
+Added Component: Designator=*18(104)
+Added Component: Designator=*19(DIP32)
+Added Component: Designator=*20(104)
+Added Component: Designator=*21(104)
+Added Component: Designator=*22(104)
+Added Component: Designator=*23(104)
+Added Component: Designator=*24(104)
+Added Component: Designator=*25(104)
+Added Component: Designator=*26(104)
+Added Component: Designator=*27(104)
+Added Component: Designator=*28(104)
+Added Component: Designator=*29(104)
+Added Component: Designator=*30(104)
+Added Component: Designator=*31(104)
+Added Component: Designator=*32(104)
+Added Component: Designator=*33(104)
+Added Component: Designator=*34(104)
+Added Component: Designator=*35(104)
+Added Component: Designator=*36(104)
+Added Component: Designator=*37(104)
+Added Component: Designator=*38(104)
+Added Component: Designator=*39(104)
+Added Component: Designator=*40(104)
+Added Component: Designator=*41(104)
+Added Component: Designator=*42(104)
+Added Component: Designator=*43(104)
+Added Component: Designator=*44(104)
+Added Component: Designator=*45(104)
+Added Component: Designator=*46(104)
+Added Component: Designator=*47(104)
+Added Component: Designator=*48(104)
+Added Component: Designator=*49(104)
+Added Component: Designator=*50(104)
+Added Component: Designator=*51(104)
+Added Component: Designator=*52(DIP32)
+Added Component: Designator=*53(104)
+Added Component: Designator=*54(104)
+Added Component: Designator=*55(104)
+Added Component: Designator=*56(104)
+Added Component: Designator=*57(104)
+Added Component: Designator=*58(104)
+Added Component: Designator=*59(104)
+Added Component: Designator=*60(104)
+Added Component: Designator=*61(104)
+Added Component: Designator=*62(104)
+Added Component: Designator=*63(104)
+Added Component: Designator=*64(104)
+Added Component: Designator=*65(104)
+Added Component: Designator=*66(104)
+Added Component: Designator=*67(104)
+Added Component: Designator=*68(104)
+Added Component: Designator=*69(104)
+Added Component: Designator=*70(104)
+Added Component: Designator=*71(104)
+Added Component: Designator=*72(104)
+Added Component: Designator=*73(104)
+Added Component: Designator=*74(104)
+Added Component: Designator=*75(104)
+Added Component: Designator=*76(104)
+Added Component: Designator=*77(104)
+Added Component: Designator=*78(104)
+Added Component: Designator=*79(104)
+Added Component: Designator=*80(104)
+Added Component: Designator=*(PCBComponent_1)
+Added Component: Designator=1(104)
+Added Component: Designator=2(104)
+Added Component: Designator=3(104)
+Added Component: Designator=4(104)
+Added Component: Designator=5(104)
+Added Component: Designator=6(104)
+Added Component: Designator=7(104)
+Added Component: Designator=8(104)
+Added Component: Designator=9(104)
+Added Component: Designator=10(104)
+Added Component: Designator=11(104)
+Added Component: Designator=12(104)
+Added Component: Designator=13(104)
+Added Component: Designator=14(104)
+Added Component: Designator=15(104)
+Added Component: Designator=16(104)
+Added Component: Designator=17(104)
+Added Component: Designator=18(104)
+Added Component: Designator=19(104)
+Added Component: Designator=20(104)
+Added Component: Designator=21(104)
+Added Component: Designator=22(104)
+Added Component: Designator=23(104)
+Added Component: Designator=24(104)
+Added Component: Designator=25(104)
+Added Component: Designator=26(104)
+Added Component: Designator=27(104)
+Added Component: Designator=28(104)
+Added Component: Designator=29(104)
+Added Component: Designator=30(104)
+Added Component: Designator=31(104)
+Added Component: Designator=32(104)
+Added Component: Designator=33(104)
+Added Component: Designator=34(104)
+Added Component: Designator=35(104)
+Added Component: Designator=P?(HDR1X5)
+Added Pin To Net: NetName=GND Pin=*1-1
+Added Pin To Net: NetName=FSMC_A1 Pin=*1-7
+Added Pin To Net: NetName=FSMC_A3 Pin=*1-8
+Added Pin To Net: NetName=FSMC_A5 Pin=*1-9
+Added Pin To Net: NetName=NETLABEL22 Pin=*1-13
+Added Pin To Net: NetName=PA1 Pin=*1-16
+Added Pin To Net: NetName=VCC Pin=*1-17
+Added Pin To Net: NetName=GND Pin=*1-18
+Added Pin To Net: NetName=NETLABEL24 Pin=*1-22
+Added Pin To Net: NetName=FSMC_A7 Pin=*1-25
+Added Pin To Net: NetName=FSMC_A9 Pin=*1-26
+Added Pin To Net: NetName=FSMC_D5 Pin=*1-28
+Added Pin To Net: NetName=FSMC_D7 Pin=*1-29
+Added Pin To Net: NetName=FSMC_D9 Pin=*1-30
+Added Pin To Net: NetName=FSMC_D11 Pin=*1-31
+Added Pin To Net: NetName=VCC Pin=*1-33
+Added Pin To Net: NetName=GND Pin=*1-34
+Added Pin To Net: NetName=FSMC_D12 Pin=*1-36
+Added Pin To Net: NetName=FSMC_D10 Pin=*1-37
+Added Pin To Net: NetName=FSMC_D8 Pin=*1-38
+Added Pin To Net: NetName=FSMC_D6 Pin=*1-39
+Added Pin To Net: NetName=FSMC_D4 Pin=*1-40
+Added Pin To Net: NetName=FSMC_A8 Pin=*1-42
+Added Pin To Net: NetName=FSMC_A6 Pin=*1-43
+Added Pin To Net: NetName=NETLABEL27 Pin=*1-46
+Added Pin To Net: NetName=PA4 Pin=*1-48
+Added Pin To Net: NetName=GND Pin=*1-49
+Added Pin To Net: NetName=VCC Pin=*1-50
+Added Pin To Net: NetName=FSMC_A4 Pin=*1-59
+Added Pin To Net: NetName=FSMC_A2 Pin=*1-60
+Added Pin To Net: NetName=FSMC_A0 Pin=*1-61
+Added Pin To Net: NetName=FSMC_NOE Pin=*1-78
+Added Pin To Net: NetName=FSMC_D2 Pin=*1-80
+Added Pin To Net: NetName=VCC Pin=*1-83
+Added Pin To Net: NetName=GND Pin=*1-84
+Added Pin To Net: NetName=FSMC_D1 Pin=*1-93
+Added Pin To Net: NetName=NETLABEL21 Pin=*1-94
+Added Pin To Net: NetName=FSMC_D14 Pin=*1-96
+Added Pin To Net: NetName=GND Pin=*1-99
+Added Pin To Net: NetName=FSMC_D13 Pin=*1-102
+Added Pin To Net: NetName=FSMC_D15 Pin=*1-103
+Added Pin To Net: NetName=FSMC_D0 Pin=*1-105
+Added Pin To Net: NetName=VCC Pin=*1-116
+Added Pin To Net: NetName=FSMC_D3 Pin=*1-120
+Added Pin To Net: NetName=FSMC_CLK Pin=*1-121
+Added Pin To Net: NetName=FSMC_NWE Pin=*1-122
+Added Pin To Net: NetName=FSMC_NE1 Pin=*1-123
+Added Pin To Net: NetName=FSMC_NL Pin=*1-129
+Added Pin To Net: NetName=GND Pin=*1-132
+Added Pin To Net: NetName=GND Pin=*2-1
+Added Pin To Net: NetName=GND Pin=*2-1
+Added Pin To Net: NetName=Net*2_2 Pin=*2-2
+Added Pin To Net: NetName=Net*2_2 Pin=*2-2
+Added Pin To Net: NetName=Net*2_3 Pin=*2-3
+Added Pin To Net: NetName=Net*2_3 Pin=*2-3
+Added Pin To Net: NetName=Net*3_1 Pin=*3-1
+Added Pin To Net: NetName=Net*3_2 Pin=*3-2
+Added Pin To Net: NetName=Net*4_1 Pin=*4-1
+Added Pin To Net: NetName=Net*3_2 Pin=*4-2
+Added Pin To Net: NetName=Net*5_2 Pin=*5-2
+Added Pin To Net: NetName=PA4 Pin=*5-3
+Added Pin To Net: NetName=GND Pin=*5-4
+Added Pin To Net: NetName=Net*5_2 Pin=*5-6
+Added Pin To Net: NetName=VCC Pin=*5-7
+Added Pin To Net: NetName=GND Pin=*6-1
+Added Pin To Net: NetName=PA4 Pin=*6-2
+Added Pin To Net: NetName=VCC Pin=*7-1
+Added Pin To Net: NetName=Net*7_2 Pin=*7-2
+Added Pin To Net: NetName=Net*7_2 Pin=*8-1
+Added Pin To Net: NetName=Net*3_2 Pin=*8-2
+Added Pin To Net: NetName=Net*9_2 Pin=*9-2
+Added Pin To Net: NetName=Net*3_2 Pin=*9-3
+Added Pin To Net: NetName=GND Pin=*9-4
+Added Pin To Net: NetName=Net*9_6 Pin=*9-6
+Added Pin To Net: NetName=VCC Pin=*9-7
+Added Pin To Net: NetName=Net*9_6 Pin=*10-1
+Added Pin To Net: NetName=PA1 Pin=*10-2
+Added Pin To Net: NetName=GND Pin=*11-1
+Added Pin To Net: NetName=Net*11_2 Pin=*11-2
+Added Pin To Net: NetName=Net*7_2 Pin=*11-3
+Added Pin To Net: NetName=GND Pin=*12-1
+Added Pin To Net: NetName=GND Pin=*12-1
+Added Pin To Net: NetName=Net*12_2 Pin=*12-2
+Added Pin To Net: NetName=Net*12_2 Pin=*12-2
+Added Pin To Net: NetName=Net*12_3 Pin=*12-3
+Added Pin To Net: NetName=Net*12_3 Pin=*12-3
+Added Pin To Net: NetName=GND Pin=*13-1
+Added Pin To Net: NetName=Net*11_2 Pin=*13-2
+Added Pin To Net: NetName=Net*7_2 Pin=*13-3
+Added Pin To Net: NetName=Net*9_6 Pin=*14-1
+Added Pin To Net: NetName=Net*9_2 Pin=*14-2
+Added Pin To Net: NetName=GND Pin=*14-3
+Added Pin To Net: NetName=Net*15_2 Pin=*15-2
+Added Pin To Net: NetName=PA4 Pin=*15-3
+Added Pin To Net: NetName=GND Pin=*15-4
+Added Pin To Net: NetName=Net*15_2 Pin=*15-6
+Added Pin To Net: NetName=VCC Pin=*15-7
+Added Pin To Net: NetName=GND Pin=*16-1
+Added Pin To Net: NetName=PA4 Pin=*16-2
+Added Pin To Net: NetName=Net*17_1 Pin=*17-1
+Added Pin To Net: NetName=GND Pin=*17-2
+Added Pin To Net: NetName=FSMC_D0 Pin=*18-1
+Added Pin To Net: NetName=Net*17_1 Pin=*18-2
+Added Pin To Net: NetName=FSMC_D0 Pin=*19-1
+Added Pin To Net: NetName=FSMC_D1 Pin=*19-2
+Added Pin To Net: NetName=FSMC_D2 Pin=*19-3
+Added Pin To Net: NetName=FSMC_D3 Pin=*19-4
+Added Pin To Net: NetName=FSMC_D4 Pin=*19-5
+Added Pin To Net: NetName=FSMC_D5 Pin=*19-6
+Added Pin To Net: NetName=FSMC_D6 Pin=*19-7
+Added Pin To Net: NetName=FSMC_D7 Pin=*19-8
+Added Pin To Net: NetName=FSMC_D8 Pin=*19-9
+Added Pin To Net: NetName=FSMC_D9 Pin=*19-10
+Added Pin To Net: NetName=FSMC_D10 Pin=*19-11
+Added Pin To Net: NetName=FSMC_D11 Pin=*19-12
+Added Pin To Net: NetName=FSMC_D12 Pin=*19-13
+Added Pin To Net: NetName=FSMC_D13 Pin=*19-14
+Added Pin To Net: NetName=FSMC_D14 Pin=*19-15
+Added Pin To Net: NetName=FSMC_D15 Pin=*19-16
+Added Pin To Net: NetName=FSMC_D15 Pin=*20-1
+Added Pin To Net: NetName=Net*20_2 Pin=*20-2
+Added Pin To Net: NetName=Net*20_2 Pin=*21-1
+Added Pin To Net: NetName=GND Pin=*21-2
+Added Pin To Net: NetName=Net*22_1 Pin=*22-1
+Added Pin To Net: NetName=GND Pin=*22-2
+Added Pin To Net: NetName=FSMC_D1 Pin=*23-1
+Added Pin To Net: NetName=Net*22_1 Pin=*23-2
+Added Pin To Net: NetName=FSMC_D14 Pin=*24-1
+Added Pin To Net: NetName=Net*24_2 Pin=*24-2
+Added Pin To Net: NetName=Net*24_2 Pin=*25-1
+Added Pin To Net: NetName=GND Pin=*25-2
+Added Pin To Net: NetName=Net*26_1 Pin=*26-1
+Added Pin To Net: NetName=GND Pin=*26-2
+Added Pin To Net: NetName=FSMC_D2 Pin=*27-1
+Added Pin To Net: NetName=Net*26_1 Pin=*27-2
+Added Pin To Net: NetName=FSMC_D13 Pin=*28-1
+Added Pin To Net: NetName=Net*28_2 Pin=*28-2
+Added Pin To Net: NetName=Net*28_2 Pin=*29-1
+Added Pin To Net: NetName=GND Pin=*29-2
+Added Pin To Net: NetName=Net*30_1 Pin=*30-1
+Added Pin To Net: NetName=GND Pin=*30-2
+Added Pin To Net: NetName=FSMC_D3 Pin=*31-1
+Added Pin To Net: NetName=Net*30_1 Pin=*31-2
+Added Pin To Net: NetName=FSMC_D12 Pin=*32-1
+Added Pin To Net: NetName=Net*32_2 Pin=*32-2
+Added Pin To Net: NetName=Net*32_2 Pin=*33-1
+Added Pin To Net: NetName=GND Pin=*33-2
+Added Pin To Net: NetName=Net*34_1 Pin=*34-1
+Added Pin To Net: NetName=GND Pin=*34-2
+Added Pin To Net: NetName=FSMC_D4 Pin=*35-1
+Added Pin To Net: NetName=Net*34_1 Pin=*35-2
+Added Pin To Net: NetName=FSMC_D11 Pin=*36-1
+Added Pin To Net: NetName=Net*36_2 Pin=*36-2
+Added Pin To Net: NetName=Net*36_2 Pin=*37-1
+Added Pin To Net: NetName=GND Pin=*37-2
+Added Pin To Net: NetName=Net*38_1 Pin=*38-1
+Added Pin To Net: NetName=GND Pin=*38-2
+Added Pin To Net: NetName=FSMC_D5 Pin=*39-1
+Added Pin To Net: NetName=Net*38_1 Pin=*39-2
+Added Pin To Net: NetName=FSMC_D10 Pin=*40-1
+Added Pin To Net: NetName=Net*40_2 Pin=*40-2
+Added Pin To Net: NetName=Net*40_2 Pin=*41-1
+Added Pin To Net: NetName=GND Pin=*41-2
+Added Pin To Net: NetName=Net*42_1 Pin=*42-1
+Added Pin To Net: NetName=GND Pin=*42-2
+Added Pin To Net: NetName=FSMC_D6 Pin=*43-1
+Added Pin To Net: NetName=Net*42_1 Pin=*43-2
+Added Pin To Net: NetName=FSMC_D9 Pin=*44-1
+Added Pin To Net: NetName=Net*44_2 Pin=*44-2
+Added Pin To Net: NetName=Net*44_2 Pin=*45-1
+Added Pin To Net: NetName=GND Pin=*45-2
+Added Pin To Net: NetName=Net*46_1 Pin=*46-1
+Added Pin To Net: NetName=GND Pin=*46-2
+Added Pin To Net: NetName=FSMC_D7 Pin=*47-1
+Added Pin To Net: NetName=Net*46_1 Pin=*47-2
+Added Pin To Net: NetName=FSMC_D8 Pin=*48-1
+Added Pin To Net: NetName=Net*48_2 Pin=*48-2
+Added Pin To Net: NetName=Net*48_2 Pin=*49-1
+Added Pin To Net: NetName=GND Pin=*49-2
+Added Pin To Net: NetName=Net*50_1 Pin=*50-1
+Added Pin To Net: NetName=GND Pin=*50-2
+Added Pin To Net: NetName=FSMC_A0 Pin=*51-1
+Added Pin To Net: NetName=Net*50_1 Pin=*51-2
+Added Pin To Net: NetName=FSMC_A0 Pin=*52-1
+Added Pin To Net: NetName=FSMC_A1 Pin=*52-2
+Added Pin To Net: NetName=FSMC_A2 Pin=*52-3
+Added Pin To Net: NetName=FSMC_A3 Pin=*52-4
+Added Pin To Net: NetName=FSMC_A4 Pin=*52-5
+Added Pin To Net: NetName=FSMC_A5 Pin=*52-6
+Added Pin To Net: NetName=FSMC_A6 Pin=*52-7
+Added Pin To Net: NetName=FSMC_A7 Pin=*52-8
+Added Pin To Net: NetName=FSMC_A8 Pin=*52-9
+Added Pin To Net: NetName=FSMC_A9 Pin=*52-10
+Added Pin To Net: NetName=FSMC_NL Pin=*52-11
+Added Pin To Net: NetName=FSMC_NE1 Pin=*52-12
+Added Pin To Net: NetName=FSMC_NWE Pin=*52-13
+Added Pin To Net: NetName=FSMC_NOE Pin=*52-14
+Added Pin To Net: NetName=FSMC_CLK Pin=*52-15
+Added Pin To Net: NetName=GND Pin=*52-16
+Added Pin To Net: NetName=Net*53_1 Pin=*53-1
+Added Pin To Net: NetName=GND Pin=*53-2
+Added Pin To Net: NetName=FSMC_A1 Pin=*54-1
+Added Pin To Net: NetName=Net*53_1 Pin=*54-2
+Added Pin To Net: NetName=FSMC_CLK Pin=*55-1
+Added Pin To Net: NetName=Net*55_2 Pin=*55-2
+Added Pin To Net: NetName=Net*55_2 Pin=*56-1
+Added Pin To Net: NetName=GND Pin=*56-2
+Added Pin To Net: NetName=Net*57_1 Pin=*57-1
+Added Pin To Net: NetName=GND Pin=*57-2
+Added Pin To Net: NetName=FSMC_A2 Pin=*58-1
+Added Pin To Net: NetName=Net*57_1 Pin=*58-2
+Added Pin To Net: NetName=FSMC_NOE Pin=*59-1
+Added Pin To Net: NetName=Net*59_2 Pin=*59-2
+Added Pin To Net: NetName=Net*59_2 Pin=*60-1
+Added Pin To Net: NetName=GND Pin=*60-2
+Added Pin To Net: NetName=Net*61_1 Pin=*61-1
+Added Pin To Net: NetName=GND Pin=*61-2
+Added Pin To Net: NetName=FSMC_A3 Pin=*62-1
+Added Pin To Net: NetName=Net*61_1 Pin=*62-2
+Added Pin To Net: NetName=FSMC_NWE Pin=*63-1
+Added Pin To Net: NetName=Net*63_2 Pin=*63-2
+Added Pin To Net: NetName=Net*63_2 Pin=*64-1
+Added Pin To Net: NetName=GND Pin=*64-2
+Added Pin To Net: NetName=Net*65_1 Pin=*65-1
+Added Pin To Net: NetName=GND Pin=*65-2
+Added Pin To Net: NetName=FSMC_A4 Pin=*66-1
+Added Pin To Net: NetName=Net*65_1 Pin=*66-2
+Added Pin To Net: NetName=FSMC_NE1 Pin=*67-1
+Added Pin To Net: NetName=Net*67_2 Pin=*67-2
+Added Pin To Net: NetName=Net*67_2 Pin=*68-1
+Added Pin To Net: NetName=GND Pin=*68-2
+Added Pin To Net: NetName=Net*69_1 Pin=*69-1
+Added Pin To Net: NetName=GND Pin=*69-2
+Added Pin To Net: NetName=FSMC_A5 Pin=*70-1
+Added Pin To Net: NetName=Net*69_1 Pin=*70-2
+Added Pin To Net: NetName=FSMC_NL Pin=*71-1
+Added Pin To Net: NetName=Net*71_2 Pin=*71-2
+Added Pin To Net: NetName=Net*71_2 Pin=*72-1
+Added Pin To Net: NetName=GND Pin=*72-2
+Added Pin To Net: NetName=Net*73_1 Pin=*73-1
+Added Pin To Net: NetName=GND Pin=*73-2
+Added Pin To Net: NetName=FSMC_A6 Pin=*74-1
+Added Pin To Net: NetName=Net*73_1 Pin=*74-2
+Added Pin To Net: NetName=FSMC_A9 Pin=*75-1
+Added Pin To Net: NetName=Net*75_2 Pin=*75-2
+Added Pin To Net: NetName=Net*75_2 Pin=*76-1
+Added Pin To Net: NetName=GND Pin=*76-2
+Added Pin To Net: NetName=Net*77_1 Pin=*77-1
+Added Pin To Net: NetName=GND Pin=*77-2
+Added Pin To Net: NetName=FSMC_A7 Pin=*78-1
+Added Pin To Net: NetName=Net*77_1 Pin=*78-2
+Added Pin To Net: NetName=FSMC_A8 Pin=*79-1
+Added Pin To Net: NetName=Net*79_2 Pin=*79-2
+Added Pin To Net: NetName=Net*79_2 Pin=*80-1
+Added Pin To Net: NetName=GND Pin=*80-2
+Added Pin To Net: NetName=VCC Pin=*-1
+Added Pin To Net: NetName=FSMC_D0 Pin=*-2
+Added Pin To Net: NetName=FSMC_D2 Pin=*-3
+Added Pin To Net: NetName=FSMC_D4 Pin=*-4
+Added Pin To Net: NetName=FSMC_D6 Pin=*-5
+Added Pin To Net: NetName=FSMC_D8 Pin=*-6
+Added Pin To Net: NetName=FSMC_D10 Pin=*-7
+Added Pin To Net: NetName=FSMC_D12 Pin=*-8
+Added Pin To Net: NetName=FSMC_D14 Pin=*-9
+Added Pin To Net: NetName=GND Pin=*-10
+Added Pin To Net: NetName=FSMC_NWE Pin=*-11
+Added Pin To Net: NetName=NETLABEL22 Pin=*-12
+Added Pin To Net: NetName=NETLABEL24 Pin=*-16
+Added Pin To Net: NetName=NETLABEL27 Pin=*-19
+Added Pin To Net: NetName=FSMC_NOE Pin=*-24
+Added Pin To Net: NetName=NETLABEL21 Pin=*-25
+Added Pin To Net: NetName=FSMC_D15 Pin=*-26
+Added Pin To Net: NetName=FSMC_D13 Pin=*-27
+Added Pin To Net: NetName=FSMC_D11 Pin=*-28
+Added Pin To Net: NetName=FSMC_D9 Pin=*-29
+Added Pin To Net: NetName=FSMC_D7 Pin=*-30
+Added Pin To Net: NetName=FSMC_D5 Pin=*-31
+Added Pin To Net: NetName=FSMC_D3 Pin=*-32
+Added Pin To Net: NetName=FSMC_D1 Pin=*-33
+Added Pin To Net: NetName=GND Pin=*-34
+Added Pin To Net: NetName=Net*3_1 Pin=1-1
+Added Pin To Net: NetName=Net*2_3 Pin=1-2
+Added Pin To Net: NetName=Net*4_1 Pin=2-1
+Added Pin To Net: NetName=Net*2_2 Pin=2-2
+Added Pin To Net: NetName=Net3_1 Pin=3-1
+Added Pin To Net: NetName=Net*5_2 Pin=3-2
+Added Pin To Net: NetName=Net3_1 Pin=4-1
+Added Pin To Net: NetName=Net*12_3 Pin=4-2
+Added Pin To Net: NetName=Net5_1 Pin=5-1
+Added Pin To Net: NetName=Net*15_2 Pin=5-2
+Added Pin To Net: NetName=Net5_1 Pin=6-1
+Added Pin To Net: NetName=Net*12_2 Pin=6-2
+Added Pin To Net: NetName=VCC Pin=7-1
+Added Pin To Net: NetName=GND Pin=7-2
+Added Pin To Net: NetName=VCC Pin=8-1
+Added Pin To Net: NetName=GND Pin=8-2
+Added Pin To Net: NetName=VCC Pin=9-1
+Added Pin To Net: NetName=GND Pin=9-2
+Added Pin To Net: NetName=VCC Pin=10-1
+Added Pin To Net: NetName=GND Pin=10-2
+Added Pin To Net: NetName=VCC Pin=11-1
+Added Pin To Net: NetName=GND Pin=11-2
+Added Pin To Net: NetName=VCC Pin=12-1
+Added Pin To Net: NetName=GND Pin=12-2
+Added Pin To Net: NetName=VCC Pin=13-1
+Added Pin To Net: NetName=GND Pin=13-2
+Added Pin To Net: NetName=VCC Pin=14-1
+Added Pin To Net: NetName=GND Pin=14-2
+Added Pin To Net: NetName=VCC Pin=15-1
+Added Pin To Net: NetName=GND Pin=15-2
+Added Pin To Net: NetName=VCC Pin=16-1
+Added Pin To Net: NetName=GND Pin=16-2
+Added Pin To Net: NetName=VCC Pin=17-1
+Added Pin To Net: NetName=GND Pin=17-2
+Added Pin To Net: NetName=VCC Pin=18-1
+Added Pin To Net: NetName=GND Pin=18-2
+Added Pin To Net: NetName=VCC Pin=19-1
+Added Pin To Net: NetName=GND Pin=19-2
+Added Pin To Net: NetName=VCC Pin=20-1
+Added Pin To Net: NetName=GND Pin=20-2
+Added Pin To Net: NetName=VCC Pin=21-1
+Added Pin To Net: NetName=GND Pin=21-2
+Added Pin To Net: NetName=VCC Pin=22-1
+Added Pin To Net: NetName=GND Pin=22-2
+Added Pin To Net: NetName=VCC Pin=23-1
+Added Pin To Net: NetName=GND Pin=23-2
+Added Pin To Net: NetName=VCC Pin=24-1
+Added Pin To Net: NetName=GND Pin=24-2
+Added Pin To Net: NetName=VCC Pin=25-1
+Added Pin To Net: NetName=GND Pin=25-2
+Added Pin To Net: NetName=VCC Pin=26-1
+Added Pin To Net: NetName=GND Pin=26-2
+Added Pin To Net: NetName=VCC Pin=27-1
+Added Pin To Net: NetName=GND Pin=27-2
+Added Pin To Net: NetName=VCC Pin=28-1
+Added Pin To Net: NetName=GND Pin=28-2
+Added Pin To Net: NetName=VCC Pin=29-1
+Added Pin To Net: NetName=GND Pin=29-2
+Added Pin To Net: NetName=VCC Pin=30-1
+Added Pin To Net: NetName=GND Pin=30-2
+Added Pin To Net: NetName=VCC Pin=31-1
+Added Pin To Net: NetName=GND Pin=31-2
+Added Pin To Net: NetName=VCC Pin=32-1
+Added Pin To Net: NetName=GND Pin=32-2
+Added Pin To Net: NetName=VCC Pin=33-1
+Added Pin To Net: NetName=GND Pin=33-2
+Added Pin To Net: NetName=VCC Pin=34-1
+Added Pin To Net: NetName=GND Pin=34-2
+Added Pin To Net: NetName=VCC Pin=35-1
+Added Pin To Net: NetName=GND Pin=35-2
+Added Member To Class: ClassName=FFT_IFFT Member=Component *1 STM32F407ZET6
+Added Member To Class: ClassName=FFT_IFFT Member=Component *2 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *4 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *5 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *6 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *7 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *8 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *9 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *10 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *11 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *12 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *13 TL432
+Added Member To Class: ClassName=FFT_IFFT Member=Component *14 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *15 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *16 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *17 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *18 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *19 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *20 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *21 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *22 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *23 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *24 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *25 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *26 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *27 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *28 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *29 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *30 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *31 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *32 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *33 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *34 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *35 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *36 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *37 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *38 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *39 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *40 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *41 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *42 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *43 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *44 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *45 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *46 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *47 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *48 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *49 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *50 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *51 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *52 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *53 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *54 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *55 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *56 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *57 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *58 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *59 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *60 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *61 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *62 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *63 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *64 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *65 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *66 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *67 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *68 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *69 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *70 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *71 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *72 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *73 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *74 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *75 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *76 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *77 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *78 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *79 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *80 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component * Component_1
+Added Member To Class: ClassName=FFT_IFFT Member=Component 1 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 2 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 3 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 4 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 5 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 6 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 7 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 8 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 9 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 10 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 11 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 12 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 13 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 14 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 15 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 16 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 17 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 18 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 19 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 20 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 21 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 22 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 23 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 24 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 25 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 26 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 27 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 28 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 29 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 30 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 31 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 32 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 33 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 34 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 35 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component P? Header 5
+Added Room: Name=FFT_IFFT

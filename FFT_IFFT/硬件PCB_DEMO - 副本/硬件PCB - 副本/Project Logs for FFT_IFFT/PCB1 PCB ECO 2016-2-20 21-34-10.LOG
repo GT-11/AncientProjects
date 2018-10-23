@@ -1,0 +1,15 @@
+Added Component: Designator=*65(STM32F407ZET6)
+Added Pin To Net: NetName=GND Pin=*65-1
+Added Pin To Net: NetName=VCC Pin=*65-17
+Added Pin To Net: NetName=GND Pin=*65-18
+Added Pin To Net: NetName=VCC Pin=*65-33
+Added Pin To Net: NetName=GND Pin=*65-34
+Added Pin To Net: NetName=GND Pin=*65-49
+Added Pin To Net: NetName=VCC Pin=*65-50
+Added Pin To Net: NetName=VCC Pin=*65-83
+Added Pin To Net: NetName=GND Pin=*65-84
+Added Pin To Net: NetName=GND Pin=*65-99
+Added Pin To Net: NetName=VCC Pin=*65-116
+Added Pin To Net: NetName=GND Pin=*65-132
+Added Member To Class: ClassName=FFT_IFFT Member=Component *65 STM32F407ZET6
+Added Room: Name=FFT_IFFT

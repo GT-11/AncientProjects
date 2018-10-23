@@ -1,0 +1,73 @@
+Added Component: Designator=*(LED_3264)
+Added Component: Designator=R?(1206)
+Added Pin To Net: NetName=Net*_60 Pin=*-60
+Added Pin To Net: NetName=Net*_60 Pin=R?-1
+Added Net: Name=Net*_60
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=*-65
+Added Pin To Net: NetName=Net*_65 Pin=R?-2
+Added Net: Name=Net*_65
+Added Class: Name=FFT_IFFT
+Added Room: Name=FFT_IFFT

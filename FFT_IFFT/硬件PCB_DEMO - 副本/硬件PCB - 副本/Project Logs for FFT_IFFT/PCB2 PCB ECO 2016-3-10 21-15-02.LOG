@@ -1,0 +1,18 @@
+Change Component Designator: OldDesignator= NewDesignator=1
+Change Component Designator: OldDesignator= NewDesignator=2
+Change Component Designator: OldDesignator= NewDesignator=*3
+Change Component Designator: OldDesignator= NewDesignator=*4
+Added Component: Designator=*10(3x3_10KOhm)
+Added Component: Designator=*13(3x3_10KOhm)
+Added Pin To Net: NetName=GND Pin=*10-1
+Added Pin To Net: NetName=Net*10_2 Pin=*10-2
+Added Pin To Net: NetName=Net*7_2 Pin=*10-3
+Added Pin To Net: NetName=Net*9_6 Pin=*13-1
+Added Pin To Net: NetName=Net*9_2 Pin=*13-2
+Added Pin To Net: NetName=GND Pin=*13-3
+Added Member To Class: ClassName=FFT_IFFT Member=Component *3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *4 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *10 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *13 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 2 104
+Added Room: Name=FFT_IFFT

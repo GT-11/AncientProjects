@@ -1,0 +1,4 @@
+load STM32F407ZETx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path D:\工作成果\Myself\水弹感应背心\测试\协处理器测试\RTE\Device\STM32F407ZETx\ 

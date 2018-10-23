@@ -1,0 +1,64 @@
+Change Component Designator: OldDesignator= NewDesignator=3
+Change Component Designator: OldDesignator= NewDesignator=4
+Change Component Designator: OldDesignator= NewDesignator=5
+Change Component Designator: OldDesignator= NewDesignator=6
+Change Component Designator: OldDesignator= NewDesignator=7
+Change Component Designator: OldDesignator= NewDesignator=8
+Change Component Designator: OldDesignator= NewDesignator=33
+Change Component Designator: OldDesignator= NewDesignator=34
+Change Component Designator: OldDesignator= NewDesignator=35
+Change Component Designator: OldDesignator= NewDesignator=36
+Change Component Designator: OldDesignator= NewDesignator=37
+Change Component Designator: OldDesignator= NewDesignator=38
+Change Component Designator: OldDesignator= NewDesignator=39
+Change Component Designator: OldDesignator= NewDesignator=40
+Change Component Designator: OldDesignator= NewDesignator=57
+Change Component Designator: OldDesignator= NewDesignator=58
+Change Component Designator: OldDesignator= NewDesignator=59
+Added Pin To Net: NetName=VCC Pin=68-1
+Added Pin To Net: NetName=VCC Pin=69-1
+Added Pin To Net: NetName=VCC Pin=70-1
+Added Pin To Net: NetName=VCC Pin=71-1
+Added Pin To Net: NetName=VCC Pin=72-1
+Added Pin To Net: NetName=VCC Pin=73-1
+Added Pin To Net: NetName=VCC Pin=74-1
+Added Pin To Net: NetName=VCC Pin=75-1
+Added Pin To Net: NetName=VCC Pin=76-1
+Added Pin To Net: NetName=VCC Pin=77-1
+Added Pin To Net: NetName=VCC Pin=78-1
+Added Pin To Net: NetName=VCC Pin=79-1
+Added Pin To Net: NetName=VCC Pin=80-1
+Added Pin To Net: NetName=VCC Pin=81-1
+Added Pin To Net: NetName=VCC Pin=82-1
+Added Pin To Net: NetName=VCC Pin=83-1
+Added Pin To Net: NetName=VCC Pin=84-1
+Added Pin To Net: NetName=VCC Pin=85-1
+Added Pin To Net: NetName=VCC Pin=86-1
+Added Pin To Net: NetName=VCC Pin=87-1
+Added Pin To Net: NetName=VCC Pin=88-1
+Added Pin To Net: NetName=VCC Pin=89-1
+Added Pin To Net: NetName=VCC Pin=90-1
+Added Pin To Net: NetName=VCC Pin=91-1
+Added Pin To Net: NetName=VCC Pin=92-1
+Added Pin To Net: NetName=VCC Pin=93-1
+Added Pin To Net: NetName=VCC Pin=94-1
+Added Pin To Net: NetName=VCC Pin=95-1
+Added Pin To Net: NetName=VCC Pin=96-1
+Added Member To Class: ClassName=FFT_IFFT Member=Component 3 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 4 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 5 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 6 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 7 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 8 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 33 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 34 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 35 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 36 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 37 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 38 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 39 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 40 SN74LVTH574
+Added Member To Class: ClassName=FFT_IFFT Member=Component 57 MC74AC138
+Added Member To Class: ClassName=FFT_IFFT Member=Component 58 MC74AC138
+Added Member To Class: ClassName=FFT_IFFT Member=Component 59 MC74AC138
+Added Room: Name=FFT_IFFT

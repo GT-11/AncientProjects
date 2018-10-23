@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=PA1 Pin=*9-6
+Change Component Designator: OldDesignator= NewDesignator=7
+Change Component Designator: OldDesignator= NewDesignator=8
+Change Component Designator: OldDesignator= NewDesignator=9
+Change Component Designator: OldDesignator= NewDesignator=10
+Change Component Designator: OldDesignator= NewDesignator=11
+Change Component Designator: OldDesignator= NewDesignator=12
+Change Component Designator: OldDesignator= NewDesignator=13
+Change Component Designator: OldDesignator= NewDesignator=14
+Change Component Designator: OldDesignator= NewDesignator=15
+Change Component Designator: OldDesignator= NewDesignator=16
+Change Component Designator: OldDesignator= NewDesignator=17
+Change Component Designator: OldDesignator= NewDesignator=*1
+Added Component: Designator=*(104)
+Added Pin To Net: NetName=PA1 Pin=*-2
+Added Pin To Net: NetName=Net*9_6 Pin=*9-6
+Added Pin To Net: NetName=Net*9_6 Pin=*-1
+Added Net: Name=Net*9_6
+Added Member To Class: ClassName=FFT_IFFT Member=Component * 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 7 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 8 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 9 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 10 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 11 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 12 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 13 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 14 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 15 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 16 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 17 104
+Added Room: Name=FFT_IFFT

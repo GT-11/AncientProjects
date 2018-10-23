@@ -1,0 +1,145 @@
+Removed Pin From Net: NetName=GND Pin=-1
+Removed Pin From Net: NetName=GND Pin=-132
+Change Component Designator: OldDesignator= NewDesignator=1
+Change Component Designator: OldDesignator= NewDesignator=2
+Change Component Designator: OldDesignator= NewDesignator=3
+Change Component Designator: OldDesignator= NewDesignator=4
+Change Component Designator: OldDesignator= NewDesignator=5
+Change Component Designator: OldDesignator= NewDesignator=6
+Change Component Designator: OldDesignator= NewDesignator=7
+Change Component Designator: OldDesignator= NewDesignator=8
+Change Component Designator: OldDesignator= NewDesignator=9
+Change Component Designator: OldDesignator= NewDesignator=10
+Change Component Designator: OldDesignator= NewDesignator=11
+Change Component Designator: OldDesignator= NewDesignator=12
+Change Component Designator: OldDesignator= NewDesignator=13
+Change Component Designator: OldDesignator= NewDesignator=14
+Change Component Designator: OldDesignator= NewDesignator=15
+Change Component Designator: OldDesignator= NewDesignator=16
+Change Component Designator: OldDesignator= NewDesignator=17
+Change Component Designator: OldDesignator= NewDesignator=18
+Change Component Designator: OldDesignator= NewDesignator=19
+Change Component Designator: OldDesignator= NewDesignator=20
+Change Component Designator: OldDesignator= NewDesignator=21
+Change Component Designator: OldDesignator= NewDesignator=22
+Change Component Designator: OldDesignator= NewDesignator=23
+Change Component Designator: OldDesignator= NewDesignator=24
+Change Component Designator: OldDesignator= NewDesignator=25
+Change Component Designator: OldDesignator= NewDesignator=26
+Change Component Designator: OldDesignator= NewDesignator=27
+Change Component Designator: OldDesignator= NewDesignator=28
+Change Component Designator: OldDesignator= NewDesignator=29
+Change Component Designator: OldDesignator= NewDesignator=30
+Change Component Designator: OldDesignator= NewDesignator=31
+Change Component Designator: OldDesignator= NewDesignator=32
+Change Component Designator: OldDesignator= NewDesignator=33
+Change Component Designator: OldDesignator= NewDesignator=34
+Change Component Designator: OldDesignator= NewDesignator=35
+Change Component Designator: OldDesignator= NewDesignator=36
+Change Component Designator: OldDesignator= NewDesignator=37
+Change Component Designator: OldDesignator= NewDesignator=38
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*1
+Change Component Designator: OldDesignator= NewDesignator=*2
+Change Component Designator: OldDesignator= NewDesignator=*3
+Change Component Designator: OldDesignator= NewDesignator=*4
+Change Component Designator: OldDesignator= NewDesignator=*5
+Change Component Designator: OldDesignator= NewDesignator=*6
+Change Component Designator: OldDesignator= NewDesignator=*7
+Change Component Designator: OldDesignator= NewDesignator=*8
+Change Component Designator: OldDesignator= NewDesignator=*9
+Change Component Designator: OldDesignator= NewDesignator=*10
+Change Component Designator: OldDesignator= NewDesignator=*11
+Change Component Designator: OldDesignator= NewDesignator=*12
+Change Component Designator: OldDesignator= NewDesignator=*13
+Change Component Designator: OldDesignator= NewDesignator=*14
+Change Component Designator: OldDesignator= NewDesignator=*15
+Added Component: Designator=39(104)
+Added Component: Designator=40(104)
+Added Component: Designator=41(104)
+Added Component: Designator=42(104)
+Added Component: Designator=43(104)
+Added Component: Designator=44(104)
+Added Component: Designator=45(104)
+Added Component: Designator=46(104)
+Added Pin To Net: NetName=VCC Pin=39-1
+Added Pin To Net: NetName=GND Pin=39-2
+Added Pin To Net: NetName=VCC Pin=40-1
+Added Pin To Net: NetName=GND Pin=40-2
+Added Pin To Net: NetName=VCC Pin=41-1
+Added Pin To Net: NetName=GND Pin=41-2
+Added Pin To Net: NetName=VCC Pin=42-1
+Added Pin To Net: NetName=GND Pin=42-2
+Added Pin To Net: NetName=VCC Pin=43-1
+Added Pin To Net: NetName=GND Pin=43-2
+Added Pin To Net: NetName=VCC Pin=44-1
+Added Pin To Net: NetName=GND Pin=44-2
+Added Pin To Net: NetName=VCC Pin=45-1
+Added Pin To Net: NetName=GND Pin=45-2
+Added Pin To Net: NetName=VCC Pin=46-1
+Added Pin To Net: NetName=GND Pin=46-2
+Added Pin To Net: NetName=GND1 Pin=*1-1
+Added Pin To Net: NetName=GND1 Pin=*1-132
+Added Net: Name=GND1
+Added Member To Class: ClassName=FFT_IFFT Member=Component *2 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *4 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *5 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *6 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *7 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *8 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *9 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *10 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *11 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *12 TL432
+Added Member To Class: ClassName=FFT_IFFT Member=Component *13 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *14 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *15 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component * 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 1 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 2 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 3 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 4 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 5 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 6 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 7 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 8 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 9 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 10 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 11 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 12 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 13 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 14 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 15 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 16 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 17 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 18 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 19 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 20 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 21 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 22 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 23 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 24 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 25 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 26 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 27 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 28 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 29 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 30 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 31 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 32 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 33 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 34 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 35 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 36 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 37 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 38 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 39 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 40 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 41 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 42 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 43 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 44 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 45 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 46 104
+Added Room: Name=FFT_IFFT

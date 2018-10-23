@@ -1,0 +1,128 @@
+Removed Pin From Net: NetName=VCC Pin=*1-83
+Removed Pin From Net: NetName=VCC Pin=*1-116
+Added Component: Designator=28(104)
+Added Component: Designator=29(104)
+Added Component: Designator=30(104)
+Added Component: Designator=31(104)
+Added Component: Designator=32(104)
+Added Component: Designator=33(104)
+Added Component: Designator=34(104)
+Added Component: Designator=35(104)
+Added Pin To Net: NetName=VCC Pin=28-1
+Added Pin To Net: NetName=GND Pin=28-2
+Added Pin To Net: NetName=VCC Pin=29-1
+Added Pin To Net: NetName=GND Pin=29-2
+Added Pin To Net: NetName=VCC Pin=30-1
+Added Pin To Net: NetName=GND Pin=30-2
+Added Pin To Net: NetName=VCC Pin=31-1
+Added Pin To Net: NetName=GND Pin=31-2
+Added Pin To Net: NetName=VCC Pin=32-1
+Added Pin To Net: NetName=GND Pin=32-2
+Added Pin To Net: NetName=VCC Pin=33-1
+Added Pin To Net: NetName=GND Pin=33-2
+Added Pin To Net: NetName=VCC Pin=34-1
+Added Pin To Net: NetName=GND Pin=34-2
+Added Pin To Net: NetName=VCC Pin=35-1
+Added Pin To Net: NetName=GND Pin=35-2
+Added Member To Class: ClassName=FFT_IFFT Member=Component *1 STM32F407ZET6
+Added Member To Class: ClassName=FFT_IFFT Member=Component *2 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *5 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *7 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *9 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *11 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *12 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *14 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *16 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *17 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *18 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *19 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *20 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *21 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *22 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *23 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *24 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *25 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *26 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *27 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *28 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *29 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *30 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *31 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *32 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *33 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *34 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *35 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *36 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *37 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *38 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *39 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *40 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *41 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *42 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *43 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *44 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *45 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *46 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *47 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *48 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *49 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *50 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *51 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *52 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *53 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *54 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *55 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *56 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *57 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *58 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *59 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *60 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *61 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *62 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *63 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *64 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *65 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *66 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *67 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *68 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *69 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *70 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *71 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *72 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *73 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *74 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *75 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *76 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *77 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *78 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *79 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *80 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component **3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component * Component_1
+Added Member To Class: ClassName=FFT_IFFT Member=Component 1 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 3 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 4 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 5 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 6 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 18 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 19 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 20 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 21 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 22 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 23 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 24 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 25 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 26 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 27 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 28 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 29 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 30 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 31 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 32 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 33 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 34 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 35 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 89 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component pp9 Header 5
+Added Member To Class: ClassName=FFT_IFFT Member=Component VR Volt Reg
+Added Room: Name=FFT_IFFT

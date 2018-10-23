@@ -1,0 +1,16 @@
+﻿<Window x:Class="视频录制与播放.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="sta" Content="开始录制" HorizontalAlignment="Left" Height="37" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click_1"/>
+        <Button Name="sto" Content="停止录制" HorizontalAlignment="Left" Height="38" Margin="10,61,0,0" VerticalAlignment="Top" Width="70" Click="sto_Click"/>
+        <Button Name="gam" Content="开始播放" HorizontalAlignment="Left" Height="36" Margin="10,113,0,0" VerticalAlignment="Top" Width="70" Click="gam_Click"/>
+        <Image Name="img" HorizontalAlignment="Left" Height="300" Margin="85,10,0,0" VerticalAlignment="Top" Width="422"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="28,154,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="1.069,0.516" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="10,187,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="1.069,0.516" Click="Button_Click_4"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="41,187,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="1.069,0.516" Click="Button_Click_5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="28,220,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="1.069,0.516" Click="Button_Click_3"/>
+
+    </Grid>
+</Window>

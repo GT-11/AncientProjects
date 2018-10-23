@@ -1,0 +1,182 @@
+Remove Pin=*1-65 From Net=AOD0
+Remove Pin=*1-66 From Net=AOD1
+Remove Pin=*1-67 From Net=AOD2
+Remove Pin=*1-68 From Net=AOD3
+Remove Pin=*1-69 From Net=AOD4
+Remove Pin=*1-70 From Net=AOD5
+Remove Pin=*1-71 From Net=AOD6
+Remove Pin=*1-72 From Net=AOD7
+Remove Pin=*1-73 From Net=AOD8
+Remove Pin=*1-74 From Net=AOD9
+Remove Pin=*1-75 From Net=AOD10
+Remove Pin=*1-76 From Net=AOD11
+Remove Pin=*1-77 From Net=AOD12
+Remove Pin=*1-78 From Net=AOD13
+Remove Pin=*1-79 From Net=AOD14
+Remove Pin=*1-80 From Net=AOD15
+Remove Pin=1-2 From Net=INPUT8
+Remove Pin=1-3 From Net=INPUT9
+Remove Pin=1-4 From Net=INPUT10
+Remove Pin=1-5 From Net=INPUT11
+Remove Pin=1-6 From Net=INPUT12
+Remove Pin=1-7 From Net=INPUT13
+Remove Pin=1-8 From Net=INPUT14
+Remove Pin=1-9 From Net=INPUT15
+Remove Pin=2-12 From Net=INPUT0
+Remove Pin=2-13 From Net=INPUT1
+Remove Pin=2-14 From Net=INPUT2
+Remove Pin=2-15 From Net=INPUT3
+Remove Pin=2-16 From Net=INPUT4
+Remove Pin=2-17 From Net=INPUT5
+Remove Pin=2-18 From Net=INPUT6
+Remove Pin=2-19 From Net=INPUT7
+Remove Pin=3-12 From Net=INPUT8
+Remove Pin=3-13 From Net=INPUT9
+Remove Pin=3-14 From Net=INPUT10
+Remove Pin=3-15 From Net=INPUT11
+Remove Pin=3-16 From Net=INPUT12
+Remove Pin=3-17 From Net=INPUT13
+Remove Pin=3-18 From Net=INPUT14
+Remove Pin=3-19 From Net=INPUT15
+Remove Pin=4-12 From Net=INPUT0
+Remove Pin=4-13 From Net=INPUT1
+Remove Pin=4-14 From Net=INPUT2
+Remove Pin=4-15 From Net=INPUT3
+Remove Pin=4-16 From Net=INPUT4
+Remove Pin=4-17 From Net=INPUT5
+Remove Pin=4-18 From Net=INPUT6
+Remove Pin=4-19 From Net=INPUT7
+Remove Pin=5-12 From Net=INPUT8
+Remove Pin=5-13 From Net=INPUT9
+Remove Pin=5-14 From Net=INPUT10
+Remove Pin=5-15 From Net=INPUT11
+Remove Pin=5-16 From Net=INPUT12
+Remove Pin=5-17 From Net=INPUT13
+Remove Pin=5-18 From Net=INPUT14
+Remove Pin=5-19 From Net=INPUT15
+Remove Pin=6-12 From Net=INPUT0
+Remove Pin=6-13 From Net=INPUT1
+Remove Pin=6-14 From Net=INPUT2
+Remove Pin=6-15 From Net=INPUT3
+Remove Pin=6-16 From Net=INPUT4
+Remove Pin=6-17 From Net=INPUT5
+Remove Pin=6-18 From Net=INPUT6
+Remove Pin=6-19 From Net=INPUT7
+Remove Pin=7-12 From Net=INPUT8
+Remove Pin=7-13 From Net=INPUT9
+Remove Pin=7-14 From Net=INPUT10
+Remove Pin=7-15 From Net=INPUT11
+Remove Pin=7-16 From Net=INPUT12
+Remove Pin=7-17 From Net=INPUT13
+Remove Pin=7-18 From Net=INPUT14
+Remove Pin=7-19 From Net=INPUT15
+Remove Pin=8-12 From Net=INPUT0
+Remove Pin=8-13 From Net=INPUT1
+Remove Pin=8-14 From Net=INPUT2
+Remove Pin=8-15 From Net=INPUT3
+Remove Pin=8-16 From Net=INPUT4
+Remove Pin=8-17 From Net=INPUT5
+Remove Pin=8-18 From Net=INPUT6
+Remove Pin=8-19 From Net=INPUT7
+Remove Pin=33-2 From Net=INPUT0
+Remove Pin=33-3 From Net=INPUT1
+Remove Pin=33-4 From Net=INPUT2
+Remove Pin=33-5 From Net=INPUT3
+Remove Pin=33-6 From Net=INPUT4
+Remove Pin=33-7 From Net=INPUT5
+Remove Pin=33-8 From Net=INPUT6
+Remove Pin=33-9 From Net=INPUT7
+Remove Pin=34-2 From Net=INPUT8
+Remove Pin=34-3 From Net=INPUT9
+Remove Pin=34-4 From Net=INPUT10
+Remove Pin=34-5 From Net=INPUT11
+Remove Pin=34-6 From Net=INPUT12
+Remove Pin=34-7 From Net=INPUT13
+Remove Pin=34-8 From Net=INPUT14
+Remove Pin=34-9 From Net=INPUT15
+Remove Pin=35-2 From Net=INPUT0
+Remove Pin=35-3 From Net=INPUT1
+Remove Pin=35-4 From Net=INPUT2
+Remove Pin=35-5 From Net=INPUT3
+Remove Pin=35-6 From Net=INPUT4
+Remove Pin=35-7 From Net=INPUT5
+Remove Pin=35-8 From Net=INPUT6
+Remove Pin=35-9 From Net=INPUT7
+Remove Pin=36-2 From Net=INPUT8
+Remove Pin=36-3 From Net=INPUT9
+Remove Pin=36-4 From Net=INPUT10
+Remove Pin=36-5 From Net=INPUT11
+Remove Pin=36-6 From Net=INPUT12
+Remove Pin=36-7 From Net=INPUT13
+Remove Pin=36-8 From Net=INPUT14
+Remove Pin=36-9 From Net=INPUT15
+Remove Pin=37-2 From Net=INPUT0
+Remove Pin=37-3 From Net=INPUT1
+Remove Pin=37-4 From Net=INPUT2
+Remove Pin=37-5 From Net=INPUT3
+Remove Pin=37-6 From Net=INPUT4
+Remove Pin=37-7 From Net=INPUT5
+Remove Pin=37-8 From Net=INPUT6
+Remove Pin=37-9 From Net=INPUT7
+Remove Pin=38-2 From Net=INPUT8
+Remove Pin=38-3 From Net=INPUT9
+Remove Pin=38-4 From Net=INPUT10
+Remove Pin=38-5 From Net=INPUT11
+Remove Pin=38-6 From Net=INPUT12
+Remove Pin=38-7 From Net=INPUT13
+Remove Pin=38-8 From Net=INPUT14
+Remove Pin=38-9 From Net=INPUT15
+Remove Pin=39-2 From Net=INPUT0
+Remove Pin=39-3 From Net=INPUT1
+Remove Pin=39-4 From Net=INPUT2
+Remove Pin=39-5 From Net=INPUT3
+Remove Pin=39-6 From Net=INPUT4
+Remove Pin=39-7 From Net=INPUT5
+Remove Pin=39-8 From Net=INPUT6
+Remove Pin=39-9 From Net=INPUT7
+Remove Pin=40-2 From Net=INPUT8
+Remove Pin=40-3 From Net=INPUT9
+Remove Pin=40-4 From Net=INPUT10
+Remove Pin=40-5 From Net=INPUT11
+Remove Pin=40-6 From Net=INPUT12
+Remove Pin=40-7 From Net=INPUT13
+Remove Pin=40-8 From Net=INPUT14
+Remove Pin=40-9 From Net=INPUT15
+Remove Pin=58-7 From Net=AOG7
+Remove Pin=58-9 From Net=AOG6
+Remove Pin=58-10 From Net=AOG5
+Remove Pin=58-11 From Net=AOG4
+Remove Pin=58-12 From Net=AOG3
+Remove Pin=58-13 From Net=AOG2
+Remove Pin=58-14 From Net=AOG1
+Remove Pin=58-15 From Net=AOG0
+Remove Pin=59-7 From Net=AOG15
+Remove Pin=59-9 From Net=AOG14
+Remove Pin=59-10 From Net=AOG13
+Remove Pin=59-11 From Net=AOG12
+Remove Pin=59-12 From Net=AOG11
+Remove Pin=59-13 From Net=AOG10
+Remove Pin=59-14 From Net=AOG9
+Remove Pin=59-15 From Net=AOG8
+Change Component Footprint: Designator=*1 Old Footprint=LED_3264 New Footprint=SN74LVTH574
+Change Component Comment: Designator=*1 Old Comment=LED_3264 New Comment=SN74LVTH574
+Change Component Designator: OldDesignator=*2 NewDesignator=*10
+Change Component Designator: OldDesignator=*3 NewDesignator=*11
+Change Component Designator: OldDesignator=*4 NewDesignator=*12
+Change Component Designator: OldDesignator=*5 NewDesignator=*13
+Change Component Designator: OldDesignator=*6 NewDesignator=*26
+Change Component Designator: OldDesignator=*7 NewDesignator=*27
+Change Component Designator: OldDesignator=*8 NewDesignator=*28
+Change Component Designator: OldDesignator=*9 NewDesignator=*29
+Change Component Designator: OldDesignator=*10 NewDesignator=*50
+Change Component Designator: OldDesignator=*11 NewDesignator=*51
+Change Component Designator: OldDesignator=*12 NewDesignator=*52
+Change Component Designator: OldDesignator=*13 NewDesignator=*53
+Change Component Designator: OldDesignator=*14 NewDesignator=*66
+Change Component Designator: OldDesignator=*15 NewDesignator=*67
+Change Component Designator: OldDesignator=*16 NewDesignator=*68
+Change Component Designator: OldDesignator=*17 NewDesignator=*69
+Change Pin Designator/Name:  Old Designator=*50-2 Old Name=G New Designator =G New Name=2
+Change Pin Designator/Name:  Old Designator=*51-2 Old Name=G New Designator =G New Name=2
+Change Pin Designator/Name:  Old Designator=*52-2 Old Name=G New Designator =G New Name=2
+Change Pin Designator/Name:  Old Designator=*53-2 Old Name=G New Designator =G New Name=2

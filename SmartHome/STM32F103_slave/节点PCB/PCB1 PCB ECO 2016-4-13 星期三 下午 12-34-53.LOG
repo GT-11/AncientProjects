@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=Y1 Old Footprint=AXIAL-0.3 New Footprint=AXIAL-0.5
+Change Component Footprint: Designator=D1 Old Footprint=LED-0 New Footprint=HA-C1
+Change Component Footprint: Designator=U1 Old Footprint=LQFP48_N New Footprint=LQFP48_L
+Change Component Kind : Designator=VR1 Old Kind=Net Tie New Kind=Standard
+Change Component Kind : Designator=U1 Old Kind=Net Tie New Kind=Standard
+Added Room: Name=Sheet1

@@ -1,0 +1,18 @@
+Added Component: Designator=A(LED_3264)
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Pin To Net: NetName=NETLABEL1 Pin=A-1
+Added Member To Class: ClassName=FFT_IFFT Member=Component A LED_3264

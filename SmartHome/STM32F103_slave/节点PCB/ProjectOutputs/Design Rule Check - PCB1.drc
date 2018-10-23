@@ -1,0 +1,34 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ADMINISTRATOR\Desktop\新建文件夹\PCB1.PcbDoc
+Date     : 2016/4/15 星期五
+Time     : 上午 11:55:46
+
+WARNING: 3 Net Ties failed verification
+   LCC Component U1-STM32F103C8T6 (72.771mm,70.739mm) on Top Layer, LCC Component U1-STM32F103C8T6 (72.771mm,70.739mm) on Top Layer, has isolated copper
+   SOIC Component R5-Res Pack3 (84.328mm,57.404mm) on Bottom Layer, SOIC Component R5-Res Pack3 (84.328mm,57.404mm) on Bottom Layer, has isolated copper
+   Component VR1-Volt Reg (80.264mm,74.676mm) on Bottom Layer, Component VR1-Volt Reg (80.264mm,74.676mm) on Bottom Layer, has isolated copper
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=0.5mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.5mm) (Preferred=0.5mm) (InNet('VCC'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:01

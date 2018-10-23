@@ -1,0 +1,424 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body {
+			font-family : verdana;
+		}
+		td, th {
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;
+		}
+		th {
+			background-color : #A6CAF0;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+		}
+		
+		.DRC_summary_header {							
+			padding-bottom : 0.1em;
+			border : 0px solid black;							
+			width: 100%;
+                        align: right;
+                        
+		}
+
+		.DRC_summary_header_col1, 
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3
+		{
+			color : black;
+			font-size:150%;
+                        padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2: 0em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top;
+			font-weight: bold;				
+		}
+		
+		.DRC_summary_header_col1 	
+		{		                       
+			text-align: right;
+                        width: auto;	
+		}
+
+		.DRC_summary_header_col2 	
+		{		
+			text-align: center;	
+		}
+
+		.DRC_summary_header_col3 	
+		{		
+			text-align: left;	
+		}
+
+
+		
+		.header_holder
+		{
+		Width = 100%;
+		border = 0px solid green;
+		padding = 0;
+		}
+		
+		
+		
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+                {
+			left:0;
+			top:0;
+			padding-top : 0.1em;			
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top
+
+		}
+		.front_matter {	
+			
+			margin-top: 5px;
+ 			margin-left: 0px;					 			
+ 			horizontal-align: left;
+		}
+				
+		
+		.front_matter_column1 {
+			width : 10em;	
+			text-align  : right;
+			padding-right:0.1em;
+			
+		}
+		
+		.front_matter_column2 {
+                        width: 0.1em;
+			align: center;
+			text-align : center;
+			margin-right  : 0.1em;	
+			margin-left   : 0.1em;
+		}
+		.front_matter_column3 {
+			width         : auto;  
+			text-align    : left;	
+			margin-right  : 0.5em;				
+		}
+		
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script></head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\PROGRAM FILES (X86)\ALTIUM DESIGNER 6\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td Style="width:70%">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">2016/2/23 星期二</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">上午 11:59:20</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc" class="file"><acronym title="C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc">C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td Style="Width:30%">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations</td>
+<td class="DRC_summary_header_col2">:</td>
+<td class="DRC_summary_header_col3" style="color : red">27</td></tr>
+</table>
+</td>
+</table>
+<hr><a name="ID35I0OPXNLZF2KIVG0FQGNN4MACBLEVDZ2L3PPCKX5FW15UY33L2O"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPD1IZWEG0QSZLXL4N0IJWSK2PIURWPMLPRJEGYBNOXSXXRXXIKOB">Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (InNet('AOG0','AOG1','AOG2','AOG3','AOG4','AOG5','AOG6','AOG7','AOG8','AOG9','AOG10','AOG11','AOG12','AOG13','AOG14','AOG15'))</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWIGPVW31VQHUF5RAX4V35FHAKCF0JNYFCNSSOWBELDVEJW1FJGUK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLZTRKHCTRZZHCBZA5QKRNWNM4KT0OYWXER3QDLQFDDORS0XZE2P">Broken-Net Constraint ( (All) )</a></td>
+<td class="column2">24</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPDPRRXHWSQ4RCNO5GISUROR5ZOYW0J3PV44SRDHQETPCQVDE5GN">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKTEGH51TAYEICXFVHD0ACBB0IMVU5POZJ4NZPKBCOXQXT2BUK">Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLDTPFBZYIF24FJL2HJDFPBKDWT224XPTTPATXCDINDSRQHCMIGM">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDRIJWX1INN3BTY21XUPMGTWKM5MUWWCNBOZGYKMLLCNKCFUELWC">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">27</td>
+</tr>
+</table><br><hr><a name="IDPD1IZWEG0QSZLXL4N0IJWSK2PIURWPMLPRJEGYBNOXSXXRXXIKOB"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (InNet('AOG0','AOG1','AOG2','AOG3','AOG4','AOG5','AOG6','AOG7','AOG8','AOG9','AOG10','AOG11','AOG12','AOG13','AOG14','AOG15'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15127.169mil|Location2.Y=17490.532mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15127.169mil|Location2.Y=17490.532mil|Absolute=True">Track (40270.197mil,16252.598mil)(40270.197mil,16252.599mil)  Bottom Layer</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15310.917mil|Location2.Y=17674.28mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15310.917mil|Location2.Y=17674.28mil|Absolute=True">Track (40380mil,16492.599mil)(40380mil,16492.598mil)  Bottom Layer</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=16270.917mil|Location2.Y=18634.28mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=16270.917mil|Location2.Y=18634.28mil|Absolute=True">Track (40370mil,17452.598mil)(40370mil,17452.599mil)  Bottom Layer</acronym></a><br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><a name="IDLZTRKHCTRZZHCBZA5QKRNWNM4KT0OYWXER3QDLQFDDORS0XZE2P"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Broken-Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39473.998mil|Location2.X=52030.845mil|Location1.Y=15301.042mil|Location2.Y=19438.958mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39473.998mil|Location2.X=52030.845mil|Location1.Y=15301.042mil|Location2.Y=19438.958mil|Absolute=True">Net GND</acronym></a><br> is broken into 71 sub-nets. Routed To 4.11%<br>
+     Subnet : 58-8     80-2     <br>     Subnet : 58-5     <br>     Subnet : 81-2     <br>     Subnet : 59-8     96-2     <br>     Subnet : 77-2     <br>     Subnet : 78-2     <br>     Subnet : 74-2     <br>     Subnet : 76-2     <br>     Subnet : 75-2     <br>     Subnet : *21-1    <br>     Subnet : 34-10    <br>     Subnet : 83-2     <br>     Subnet : 35-10    <br>     Subnet : *46-1    <br>     Subnet : 79-2     33-10    <br>     Subnet : 59-5     <br>     Subnet : *45-1    <br>     Subnet : *57-1    <br>     Subnet : 8-10     <br>     Subnet : 82-2     <br>     Subnet : 59-4     <br>     Subnet : 7-10     <br>     Subnet : 85-2     <br>     Subnet : *33-1    <br>     Subnet : *58-1    <br>     Subnet : 6-10     <br>     Subnet : 92-2     <br>     Subnet : 72-2     <br>     Subnet : 73-2     <br>     Subnet : 69-2     <br>     Subnet : 71-2     <br>     Subnet : 70-2     <br>     Subnet : 84-2     <br>     Subnet : 36-10    <br>     Subnet : 86-2     <br>     Subnet : *22-1    <br>     Subnet : 37-10    <br>     Subnet : 87-2     <br>     Subnet : *51-1    <br>     Subnet : 88-2     <br>     Subnet : 89-2     <br>     Subnet : *52-1    <br>     Subnet : *27-1    <br>     Subnet : 38-10    <br>     Subnet : 39-10    <br>     Subnet : *28-1    <br>     Subnet : *65-18   <br>     Subnet : 40-10    <br>     Subnet : 68-2     <br>     Subnet : 5-10     <br>     Subnet : 57-8     <br>     Subnet : 4-10     <br>     Subnet : 3-10     <br>     Subnet : 95-2     <br>     Subnet : *34-1    <br>     Subnet : *63-1    <br>     Subnet : 93-2     <br>     Subnet : 94-2     <br>     Subnet : *39-1    <br>     Subnet : *65-34   <br>     Subnet : *65-99   <br>     Subnet : *65-84   <br>     Subnet : *65-1    <br>     Subnet : *65-49   <br>     Subnet : *65-132  <br>     Subnet : 2-10     <br>     Subnet : *40-1    <br>     Subnet : 91-2     <br>     Subnet : 1-10     <br>     Subnet : *64-1    <br>     Subnet : 90-2     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39735.966mil|Location2.X=50199.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39735.966mil|Location2.X=50199.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT0</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-2     <br>     Subnet : 8-2      6-2      4-2      2-2      <br>     Subnet : 35-2     <br>     Subnet : 37-2     <br>     Subnet : 39-2     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39785.966mil|Location2.X=50149.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39785.966mil|Location2.X=50149.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT1</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-3     <br>     Subnet : 8-3      6-3      4-3      2-3      <br>     Subnet : 35-3     <br>     Subnet : 37-3     <br>     Subnet : 39-3     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39835.966mil|Location2.X=50099.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39835.966mil|Location2.X=50099.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT2</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-4     <br>     Subnet : 8-4      6-4      4-4      2-4      <br>     Subnet : 35-4     <br>     Subnet : 37-4     <br>     Subnet : 39-4     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39885.966mil|Location2.X=50049.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39885.966mil|Location2.X=50049.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT3</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-5     <br>     Subnet : 8-5      6-5      4-5      2-5      <br>     Subnet : 35-5     <br>     Subnet : 37-5     <br>     Subnet : 39-5     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39860.966mil|Location2.X=50034.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39860.966mil|Location2.X=50034.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT4</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-6     <br>     Subnet : 8-6      6-6      4-6      2-6      <br>     Subnet : 35-6     <br>     Subnet : 39-6     <br>     Subnet : 37-6     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39810.966mil|Location2.X=50084.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39810.966mil|Location2.X=50084.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT5</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-7     <br>     Subnet : 8-7      6-7      4-7      2-7      <br>     Subnet : 35-7     <br>     Subnet : 39-7     <br>     Subnet : 37-7     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39760.966mil|Location2.X=50134.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39760.966mil|Location2.X=50134.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT6</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-8     <br>     Subnet : 8-8      6-8      2-8      4-8      <br>     Subnet : 35-8     <br>     Subnet : 37-8     <br>     Subnet : 39-8     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39710.966mil|Location2.X=50184.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39710.966mil|Location2.X=50184.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT7</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 33-9     <br>     Subnet : 8-9      6-9      4-9      2-9      <br>     Subnet : 35-9     <br>     Subnet : 39-9     <br>     Subnet : 37-9     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41345.966mil|Location2.X=51819.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41345.966mil|Location2.X=51819.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT8</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-2     <br>     Subnet : 7-2      5-2      3-2      1-2      <br>     Subnet : 36-2     <br>     Subnet : 38-2     <br>     Subnet : 40-2     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41395.966mil|Location2.X=51769.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41395.966mil|Location2.X=51769.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT9</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-3     <br>     Subnet : 7-3      5-3      3-3      1-3      <br>     Subnet : 36-3     <br>     Subnet : 38-3     <br>     Subnet : 40-3     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41420.966mil|Location2.X=51719.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41420.966mil|Location2.X=51719.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT10</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-4     <br>     Subnet : 7-4      5-4      3-4      1-4      <br>     Subnet : 36-4     <br>     Subnet : 38-4     <br>     Subnet : 40-4     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41370.966mil|Location2.X=51669.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41370.966mil|Location2.X=51669.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT11</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-5     <br>     Subnet : 7-5      5-5      3-5      1-5      <br>     Subnet : 36-5     <br>     Subnet : 38-5     <br>     Subnet : 40-5     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41320.966mil|Location2.X=51619.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41320.966mil|Location2.X=51619.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT12</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 7-6      5-6      3-6      1-6      <br>     Subnet : 34-6     <br>     Subnet : 36-6     <br>     Subnet : 38-6     <br>     Subnet : 40-6     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41270.966mil|Location2.X=51572.16mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41270.966mil|Location2.X=51572.16mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT13</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-7     <br>     Subnet : 7-7      5-7      3-7      1-7      <br>     Subnet : 36-7     <br>     Subnet : 38-7     <br>     Subnet : 40-7     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41220.966mil|Location2.X=51589.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41220.966mil|Location2.X=51589.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT14</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-8     <br>     Subnet : 7-8      5-8      3-8      1-8      <br>     Subnet : 36-8     <br>     Subnet : 38-8     <br>     Subnet : 40-8     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41170.966mil|Location2.X=51639.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=41170.966mil|Location2.X=51639.034mil|Location1.Y=16004.979mil|Location2.Y=19125.021mil|Absolute=True">Net INPUT15</acronym></a><br> is broken into 5 sub-nets. Routed To 42.86%<br>
+     Subnet : 34-9     <br>     Subnet : 7-9      5-9      3-9      1-9      <br>     Subnet : 36-9     <br>     Subnet : 38-9     <br>     Subnet : 40-9     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39285.218mil|Location2.X=52029.782mil|Location1.Y=15301.042mil|Location2.Y=19439.982mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=39285.218mil|Location2.X=52029.782mil|Location1.Y=15301.042mil|Location2.Y=19439.982mil|Absolute=True">Net VCC</acronym></a><br> is broken into 51 sub-nets. Routed To 41.18%<br>
+     Subnet : 10-2     *3-3     <br>     Subnet : *5-3     12-2     <br>     Subnet : 11-2     *4-3     <br>     Subnet : 22-2     *7-3     <br>     Subnet : 24-2     *9-3     <br>     Subnet : 21-2     *6-3     <br>     Subnet : 23-2     *8-3     <br>     Subnet : 41-2     *10-3    <br>     Subnet : 9-2      *2-3     <br>     Subnet : 42-2     *11-3    <br>     Subnet : 54-2     *15-3    <br>     Subnet : 44-2     *13-3    <br>     Subnet : 56-2     *17-3    <br>     Subnet : 79-1     33-20    <br>     Subnet : 43-2     *12-3    <br>     Subnet : 53-2     *14-3    <br>     Subnet : 55-2     *16-3    <br>     Subnet : 34-20    81-1     <br>     Subnet : 35-20    83-1     <br>     Subnet : 75-1     <br>     Subnet : 73-1     <br>     Subnet : 74-1     <br>     Subnet : 78-1     <br>     Subnet : 76-1     <br>     Subnet : 77-1     <br>     Subnet : 58-16    80-1     <br>     Subnet : 59-16    96-1     <br>     Subnet : 58-6     <br>     Subnet : 72-1     <br>     Subnet : 71-1     <br>     Subnet : 36-20    84-1     <br>     Subnet : 70-1     <br>     Subnet : 69-1     <br>     Subnet : 38-20    87-1     <br>     Subnet : 88-1     39-20    <br>     Subnet : 86-1     37-20    <br>     Subnet : 40-20    89-1     <br>     Subnet : *65-33   <br>     Subnet : *65-50   <br>     Subnet : *65-17   <br>     Subnet : 82-1     8-20     <br>     Subnet : 85-1     7-20     <br>     Subnet : 92-1     6-20     <br>     Subnet : 68-1     57-16    <br>     Subnet : 95-1     5-20     <br>     Subnet : 93-1     3-20     <br>     Subnet : 94-1     4-20     <br>     Subnet : 91-1     2-20     <br>     Subnet : *65-83   <br>     Subnet : *65-116  <br>     Subnet : 90-1     1-20     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15693.319mil|Location2.Y=18056.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15693.319mil|Location2.Y=18056.681mil|Absolute=True">Net Net58_1</acronym></a><br> is broken into 2 sub-nets. Routed To 0.00%<br>
+     Subnet : 58-1     <br>     Subnet : 59-1     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15643.319mil|Location2.Y=18006.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15643.319mil|Location2.Y=18006.681mil|Absolute=True">Net Net58_2</acronym></a><br> is broken into 2 sub-nets. Routed To 0.00%<br>
+     Subnet : 58-2     <br>     Subnet : 59-2     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15593.319mil|Location2.Y=17956.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15593.319mil|Location2.Y=17956.681mil|Absolute=True">Net Net58_3</acronym></a><br> is broken into 2 sub-nets. Routed To 0.00%<br>
+     Subnet : 58-3     <br>     Subnet : 59-3     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15493.319mil|Location2.Y=17856.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=15493.319mil|Location2.Y=17856.681mil|Absolute=True">Net Net58_4</acronym></a><br> is broken into 2 sub-nets. Routed To 0.00%<br>
+     Subnet : 58-4     <br>     Subnet : 59-6     <br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=17328.319mil|Location2.Y=19691.681mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=38804.13mil|Location2.X=45775.728mil|Location1.Y=17328.319mil|Location2.Y=19691.681mil|Absolute=True">Net Net*1_92</acronym></a><br> is broken into 2 sub-nets. Routed To 93.75%<br>
+     Subnet : *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    <br>              *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    <br>     Subnet : 7-16     <br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\%E9%A2%91%E8%B0%B1FFT_IFFT\%E7%A1%AC%E4%BB%B6PCB - %E5%89%AF%E6%9C%AC\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=43304.575mil|Location2.X=50276.173mil|Location1.Y=15127.169mil|Location2.Y=17490.532mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc;viewname=PCBEditor;Action=Area|Location1.X=43304.575mil|Location2.X=50276.173mil|Location1.Y=15127.169mil|Location2.Y=17490.532mil|Absolute=True">Net CLK3_</acronym></a><br> is broken into 4 sub-nets. Routed To 0.00%<br>
+     Subnet : *51-2    <br>     Subnet : 37-11    <br>     Subnet : *49-2    <br>     Subnet : *47-2    <br></td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br></body>
+</html>

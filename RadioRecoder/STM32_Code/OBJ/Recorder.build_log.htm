@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W zr, None, LIC=KRMUH-W2YQ6-HKPBD-8SYE4-JFC8M-5YI97
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\82312\Desktop\GitTEST\AncientProject\RadioRecoder\STM32_Code\USER\RECORDER.uvprojx
+Project File Date:  10/23/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RECORDER'
+compiling main.c...
+..\HARDWARE\KEY\key.h(19): warning:  #1295-D: Deprecated declaration PressKey - give arg types
+  u8 PressKey();
+..\HARDWARE\OLED\oled.h(65): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+..\HARDWARE\OLED\oled.h(66): warning:  #1295-D: Deprecated declaration OLED_IIC_Start - give arg types
+  void OLED_IIC_Start();
+..\HARDWARE\OLED\oled.h(67): warning:  #1295-D: Deprecated declaration OLED_IIC_Stop - give arg types
+  void OLED_IIC_Stop();
+..\HARDWARE\OLED\oled.h(72): warning:  #1295-D: Deprecated declaration OLED_IIC_Wait_Ack - give arg types
+  void OLED_IIC_Wait_Ack();
+main.c(437): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc3 = StrEqual(Buffer,"SERCH:Begin_",32,strlen("SERCH:Begin_"));
+main.c(605): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc1 = StrEqual(Buffer,"$WIFI",32,strlen("$WIFI"));
+main.c(606): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc2 = StrEqual(Buffer,"$PASS",32,strlen("$PASS"));
+main.c(607): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc3 = StrEqual(Buffer,"$IPAD",32,strlen("$IPAD"));
+main.c(608): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc4 = StrEqual(Buffer,"$PORT",32,strlen("$PORT"));
+main.c(611): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			RecvComLoc2 = StrEqual(Buffer,"\n",32,strlen("\n"));
+main.c(630): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			RecvComLoc1 = StrEqual(Buffer,"\n",32,strlen("\n"));
+main.c(649): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			RecvComLoc2 = StrEqual(Buffer,"\n",32,strlen("\n"));
+main.c(668): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			RecvComLoc2 = StrEqual(Buffer,"\n",32,strlen("\n"));
+main.c(718): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(724): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	}while(StrEqual(USART_RX_BUF,recv_A,USART_REC_LEN,strlen(recv_A)) == -1);
+main.c(726): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(739): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(744): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	}while(StrEqual(USART_RX_BUF,recv_B,USART_REC_LEN,strlen(recv_B)) == -1);
+main.c(764): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc3 = StrEqual(USART_RX_BUF,"Synchronous Device Info\r\n",USART_REC_LEN,strlen("Synchronous Device Info\r\n"));
+main.c(780): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  			UARTSendData(BordID,8);
+main.c(781): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(784): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  		RecvComLoc3 = StrEqual(USART_RX_BUF,"Request Binding\r\n",USART_REC_LEN,strlen("Request Binding\r\n"));
+main.c(822): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  				ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(854): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					RecvComLoc3 = StrEqual(USART_RX_BUF,"Bindind Check Confirm\r\n",USART_REC_LEN,strlen("Bindind Check Confirm\r\n"));
+main.c(887): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  					UARTSendData(BordID,8);
+main.c(919): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  					UARTSendData(BordID,8);
+main.c(925): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	ClearBuffer(USART_RX_BUF,USART_REC_LEN);
+main.c(938): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(56,2,SoftID,16);
+main.c(940): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(56,4,BordID,16);
+main.c(1042): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  						OLED_ShowString(56,2,SoftID,16);
+main.c(1044): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  						OLED_ShowString(56,4,BordID,16);
+main.c(1117): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  				OLED_ShowString(56,2,SoftID,16);
+main.c(1119): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  				OLED_ShowString(56,4,BordID,16);
+main.c(1151): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  			UARTSendData(BordID,8);
+main.c(1169): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					sprintf(String_Windows_Time,"%0.2d",Real_Time_Month);
+main.c(1173): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(String_Windows_Time,"%0.2d",Real_Time_Day);
+main.c(1177): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(String_Windows_Time,"%0.2d",Real_Time_Hour);
+main.c(1182): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(String_Windows_Time,"%0.2d",Real_Time_Minute);
+main.c(1186): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(String_Windows_Time,"%0.2d",Real_Time_Second);
+main.c(1207): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  					UARTSendData(BordID,8);
+main.c(254): warning:  #177-D: variable "initfile"  was declared but never referenced
+  	FIL initfile;
+main.c: 42 warnings, 0 errors
+linking...
+Program Size: Code=76194 RO-data=7414 RW-data=1624 ZI-data=1234360  
+FromELF: creating hex file...
+"..\OBJ\Recorder.axf" - 0 Error(s), 42 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.11.0.pack
+                Keil.STM32F4xx_DFP.2.11.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RECORDER
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

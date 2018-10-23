@@ -1,0 +1,695 @@
+Removed Pin From Net: NetName=FSMC_A0 Pin=-
+Removed Pin From Net: NetName=FSMC_A1 Pin=-
+Removed Pin From Net: NetName=FSMC_A2 Pin=-
+Removed Pin From Net: NetName=FSMC_A3 Pin=-
+Removed Pin From Net: NetName=FSMC_A4 Pin=-
+Removed Pin From Net: NetName=FSMC_A5 Pin=-
+Removed Pin From Net: NetName=FSMC_A6 Pin=-
+Removed Pin From Net: NetName=FSMC_A7 Pin=-
+Removed Pin From Net: NetName=FSMC_A8 Pin=-
+Removed Pin From Net: NetName=FSMC_A9 Pin=-
+Removed Pin From Net: NetName=FSMC_NL Pin=-
+Removed Pin From Net: NetName=FSMC_NE1 Pin=-
+Removed Pin From Net: NetName=FSMC_NWE Pin=-
+Removed Pin From Net: NetName=FSMC_NOE Pin=-
+Removed Pin From Net: NetName=FSMC_CLK Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=FSMC_D0 Pin=-
+Removed Pin From Net: NetName=FSMC_D1 Pin=-
+Removed Pin From Net: NetName=FSMC_D2 Pin=-
+Removed Pin From Net: NetName=FSMC_D3 Pin=-
+Removed Pin From Net: NetName=FSMC_D4 Pin=-
+Removed Pin From Net: NetName=FSMC_D5 Pin=-
+Removed Pin From Net: NetName=FSMC_D6 Pin=-
+Removed Pin From Net: NetName=FSMC_D7 Pin=-
+Removed Pin From Net: NetName=FSMC_D8 Pin=-
+Removed Pin From Net: NetName=FSMC_D9 Pin=-
+Removed Pin From Net: NetName=FSMC_D10 Pin=-
+Removed Pin From Net: NetName=FSMC_D11 Pin=-
+Removed Pin From Net: NetName=FSMC_D12 Pin=-
+Removed Pin From Net: NetName=FSMC_D13 Pin=-
+Removed Pin From Net: NetName=FSMC_D14 Pin=-
+Removed Pin From Net: NetName=FSMC_D15 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*61_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*59_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*55_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*57_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*53_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*71_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*65_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=FSMC_A1 Pin=-
+Removed Pin From Net: NetName=FSMC_A3 Pin=-
+Removed Pin From Net: NetName=FSMC_A5 Pin=-
+Removed Pin From Net: NetName=NETLABEL22 Pin=-
+Removed Pin From Net: NetName=PA1 Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=NETLABEL24 Pin=-
+Removed Pin From Net: NetName=FSMC_A7 Pin=-
+Removed Pin From Net: NetName=FSMC_A9 Pin=-
+Removed Pin From Net: NetName=FSMC_D5 Pin=-
+Removed Pin From Net: NetName=FSMC_D7 Pin=-
+Removed Pin From Net: NetName=FSMC_D9 Pin=-
+Removed Pin From Net: NetName=FSMC_D11 Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=VCC5 Pin=-
+Removed Pin From Net: NetName=FSMC_A0 Pin=-
+Removed Pin From Net: NetName=FSMC_A2 Pin=-
+Removed Pin From Net: NetName=FSMC_A4 Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=PA4 Pin=-
+Removed Pin From Net: NetName=NETLABEL27 Pin=-
+Removed Pin From Net: NetName=FSMC_A6 Pin=-
+Removed Pin From Net: NetName=FSMC_A8 Pin=-
+Removed Pin From Net: NetName=FSMC_D4 Pin=-
+Removed Pin From Net: NetName=FSMC_D6 Pin=-
+Removed Pin From Net: NetName=FSMC_D8 Pin=-
+Removed Pin From Net: NetName=FSMC_D10 Pin=-
+Removed Pin From Net: NetName=FSMC_D12 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=FSMC_D13 Pin=-
+Removed Pin From Net: NetName=FSMC_D15 Pin=-
+Removed Pin From Net: NetName=FSMC_D0 Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=FSMC_D3 Pin=-
+Removed Pin From Net: NetName=FSMC_CLK Pin=-
+Removed Pin From Net: NetName=FSMC_NWE Pin=-
+Removed Pin From Net: NetName=FSMC_NE1 Pin=-
+Removed Pin From Net: NetName=FSMC_NL Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=FSMC_D14 Pin=-
+Removed Pin From Net: NetName=NETLABEL21 Pin=-
+Removed Pin From Net: NetName=FSMC_D1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=FSMC_D2 Pin=-
+Removed Pin From Net: NetName=FSMC_NOE Pin=-
+Removed Pin From Net: NetName=VCC5 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*79_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*77_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*75_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*73_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*63_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*67_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*69_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*42_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*36_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*44_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*48_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*50_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*34_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*46_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*40_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*38_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*32_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*24_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*22_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*26_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*17_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*28_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*30_1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*20_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=PA4 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=PA4 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*9_6 Pin=-
+Removed Pin From Net: NetName=Net*9_2 Pin=-
+Removed Pin From Net: NetName=Net3_1 Pin=-
+Removed Pin From Net: NetName=Net*5_2 Pin=-
+Removed Pin From Net: NetName=Net3_1 Pin=-
+Removed Pin From Net: NetName=Net*12_3 Pin=-
+Removed Pin From Net: NetName=Net5_1 Pin=-
+Removed Pin From Net: NetName=Net*12_2 Pin=-
+Removed Pin From Net: NetName=Net5_1 Pin=-
+Removed Pin From Net: NetName=Net*15_2 Pin=-
+Removed Pin From Net: NetName=Net*2_3 Pin=-
+Removed Pin From Net: NetName=Net*2_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*2_3 Pin=-
+Removed Pin From Net: NetName=Net*2_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*3_1 Pin=-
+Removed Pin From Net: NetName=Net*2_3 Pin=-
+Removed Pin From Net: NetName=Net*3_1 Pin=-
+Removed Pin From Net: NetName=Net*3_2 Pin=-
+Removed Pin From Net: NetName=Net*4_1 Pin=-
+Removed Pin From Net: NetName=Net*2_2 Pin=-
+Removed Pin From Net: NetName=Net*4_1 Pin=-
+Removed Pin From Net: NetName=Net*3_2 Pin=-
+Removed Pin From Net: NetName=Net*7_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*11_2 Pin=-
+Removed Pin From Net: NetName=Net*7_2 Pin=-
+Removed Pin From Net: NetName=Net*3_2 Pin=-
+Removed Pin From Net: NetName=Net*9_6 Pin=-
+Removed Pin From Net: NetName=PA1 Pin=-
+Removed Pin From Net: NetName=Net*11_2 Pin=-
+Removed Pin From Net: NetName=Net*7_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*12_3 Pin=-
+Removed Pin From Net: NetName=Net*12_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*12_3 Pin=-
+Removed Pin From Net: NetName=Net*12_2 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=Net*17_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D0 Pin=-
+Removed Pin From Net: NetName=Net*20_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D15 Pin=-
+Removed Pin From Net: NetName=Net*22_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D1 Pin=-
+Removed Pin From Net: NetName=Net*24_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D14 Pin=-
+Removed Pin From Net: NetName=Net*26_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D2 Pin=-
+Removed Pin From Net: NetName=Net*28_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D13 Pin=-
+Removed Pin From Net: NetName=Net*30_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D3 Pin=-
+Removed Pin From Net: NetName=Net*32_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D12 Pin=-
+Removed Pin From Net: NetName=Net*34_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D4 Pin=-
+Removed Pin From Net: NetName=Net*36_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D11 Pin=-
+Removed Pin From Net: NetName=Net*38_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D5 Pin=-
+Removed Pin From Net: NetName=Net*40_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D10 Pin=-
+Removed Pin From Net: NetName=Net*42_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D6 Pin=-
+Removed Pin From Net: NetName=Net*44_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D9 Pin=-
+Removed Pin From Net: NetName=Net*46_1 Pin=-
+Removed Pin From Net: NetName=FSMC_D7 Pin=-
+Removed Pin From Net: NetName=Net*48_2 Pin=-
+Removed Pin From Net: NetName=FSMC_D8 Pin=-
+Removed Pin From Net: NetName=Net*50_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A0 Pin=-
+Removed Pin From Net: NetName=Net*53_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A1 Pin=-
+Removed Pin From Net: NetName=Net*55_2 Pin=-
+Removed Pin From Net: NetName=FSMC_CLK Pin=-
+Removed Pin From Net: NetName=Net*57_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A2 Pin=-
+Removed Pin From Net: NetName=Net*59_2 Pin=-
+Removed Pin From Net: NetName=FSMC_NOE Pin=-
+Removed Pin From Net: NetName=Net*61_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A3 Pin=-
+Removed Pin From Net: NetName=Net*63_2 Pin=-
+Removed Pin From Net: NetName=FSMC_NWE Pin=-
+Removed Pin From Net: NetName=Net*65_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A4 Pin=-
+Removed Pin From Net: NetName=Net*67_2 Pin=-
+Removed Pin From Net: NetName=FSMC_NE1 Pin=-
+Removed Pin From Net: NetName=Net*69_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A5 Pin=-
+Removed Pin From Net: NetName=Net*71_2 Pin=-
+Removed Pin From Net: NetName=FSMC_NL Pin=-
+Removed Pin From Net: NetName=Net*73_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A6 Pin=-
+Removed Pin From Net: NetName=Net*75_2 Pin=-
+Removed Pin From Net: NetName=FSMC_A9 Pin=-
+Removed Pin From Net: NetName=Net*77_1 Pin=-
+Removed Pin From Net: NetName=FSMC_A7 Pin=-
+Removed Pin From Net: NetName=Net*79_2 Pin=-
+Removed Pin From Net: NetName=FSMC_A8 Pin=-
+Removed Pin From Net: NetName=NETLABEL27 Pin=-
+Removed Pin From Net: NetName=FSMC_NOE Pin=-
+Removed Pin From Net: NetName=NETLABEL21 Pin=-
+Removed Pin From Net: NetName=FSMC_D15 Pin=-
+Removed Pin From Net: NetName=FSMC_D13 Pin=-
+Removed Pin From Net: NetName=FSMC_D11 Pin=-
+Removed Pin From Net: NetName=FSMC_D9 Pin=-
+Removed Pin From Net: NetName=FSMC_D7 Pin=-
+Removed Pin From Net: NetName=FSMC_D5 Pin=-
+Removed Pin From Net: NetName=FSMC_D3 Pin=-
+Removed Pin From Net: NetName=FSMC_D1 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=FSMC_D0 Pin=-
+Removed Pin From Net: NetName=FSMC_D2 Pin=-
+Removed Pin From Net: NetName=FSMC_D4 Pin=-
+Removed Pin From Net: NetName=FSMC_D6 Pin=-
+Removed Pin From Net: NetName=FSMC_D8 Pin=-
+Removed Pin From Net: NetName=FSMC_D10 Pin=-
+Removed Pin From Net: NetName=FSMC_D12 Pin=-
+Removed Pin From Net: NetName=FSMC_D14 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=FSMC_NWE Pin=-
+Removed Pin From Net: NetName=NETLABEL22 Pin=-
+Removed Pin From Net: NetName=NETLABEL24 Pin=-
+Removed Pin From Net: NetName=VCC5 Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=Net*7_2 Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Removed Pin From Net: NetName=VCC Pin=-
+Removed Pin From Net: NetName=GND Pin=-
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=1KOhm
+Change Component Comment : Designator= Old Comment= New Comment=3x3_10KOhm
+Change Component Comment : Designator= Old Comment= New Comment=3x3_10KOhm
+Change Component Comment : Designator= Old Comment= New Comment=10kOhm
+Change Component Comment : Designator= Old Comment= New Comment=10kOhm
+Change Component Comment : Designator= Old Comment= New Comment=10kOhm
+Change Component Comment : Designator= Old Comment= New Comment=10kOhm
+Change Component Comment : Designator= Old Comment= New Comment=10kOhm
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=104
+Change Component Comment : Designator= Old Comment= New Comment=560Ohm
+Change Component Comment : Designator= Old Comment= New Comment=560Ohm
+Change Component Comment : Designator= Old Comment= New Comment=Component_1
+Change Component Comment : Designator= Old Comment= New Comment=FSMC_A
+Change Component Comment : Designator= Old Comment= New Comment=FSMC_A
+Change Component Comment : Designator= Old Comment= New Comment=Header 5
+Change Component Comment : Designator= Old Comment= New Comment=OPA333
+Change Component Comment : Designator= Old Comment= New Comment=OPA333
+Change Component Comment : Designator= Old Comment= New Comment=OPA333
+Change Component Comment : Designator= Old Comment= New Comment=PJ313E
+Change Component Comment : Designator= Old Comment= New Comment=PJ313E
+Change Component Comment : Designator= Old Comment= New Comment=STM32F407ZET6
+Change Component Comment : Designator= Old Comment= New Comment=TL432
+Change Component Comment : Designator= Old Comment= New Comment=Volt Reg
+Change Component Designator: OldDesignator= NewDesignator=1
+Change Component Designator: OldDesignator= NewDesignator=2
+Change Component Designator: OldDesignator= NewDesignator=3
+Change Component Designator: OldDesignator= NewDesignator=4
+Change Component Designator: OldDesignator= NewDesignator=5
+Change Component Designator: OldDesignator= NewDesignator=6
+Change Component Designator: OldDesignator= NewDesignator=7
+Change Component Designator: OldDesignator= NewDesignator=8
+Change Component Designator: OldDesignator= NewDesignator=9
+Change Component Designator: OldDesignator= NewDesignator=10
+Change Component Designator: OldDesignator= NewDesignator=11
+Change Component Designator: OldDesignator= NewDesignator=12
+Change Component Designator: OldDesignator= NewDesignator=13
+Change Component Designator: OldDesignator= NewDesignator=14
+Change Component Designator: OldDesignator= NewDesignator=15
+Change Component Designator: OldDesignator= NewDesignator=16
+Change Component Designator: OldDesignator= NewDesignator=17
+Change Component Designator: OldDesignator= NewDesignator=18
+Change Component Designator: OldDesignator= NewDesignator=19
+Change Component Designator: OldDesignator= NewDesignator=20
+Change Component Designator: OldDesignator= NewDesignator=21
+Change Component Designator: OldDesignator= NewDesignator=22
+Change Component Designator: OldDesignator= NewDesignator=23
+Change Component Designator: OldDesignator= NewDesignator=24
+Change Component Designator: OldDesignator= NewDesignator=25
+Change Component Designator: OldDesignator= NewDesignator=26
+Change Component Designator: OldDesignator= NewDesignator=27
+Change Component Designator: OldDesignator= NewDesignator=28
+Change Component Designator: OldDesignator= NewDesignator=29
+Change Component Designator: OldDesignator= NewDesignator=30
+Change Component Designator: OldDesignator= NewDesignator=31
+Change Component Designator: OldDesignator= NewDesignator=32
+Change Component Designator: OldDesignator= NewDesignator=33
+Change Component Designator: OldDesignator= NewDesignator=34
+Change Component Designator: OldDesignator= NewDesignator=35
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*1
+Change Component Designator: OldDesignator= NewDesignator=*2
+Change Component Designator: OldDesignator= NewDesignator=*3
+Change Component Designator: OldDesignator= NewDesignator=*4
+Change Component Designator: OldDesignator= NewDesignator=*5
+Change Component Designator: OldDesignator= NewDesignator=*6
+Change Component Designator: OldDesignator= NewDesignator=*7
+Change Component Designator: OldDesignator= NewDesignator=*8
+Change Component Designator: OldDesignator= NewDesignator=*9
+Change Component Designator: OldDesignator= NewDesignator=*10
+Change Component Designator: OldDesignator= NewDesignator=*11
+Change Component Designator: OldDesignator= NewDesignator=*12
+Change Component Designator: OldDesignator= NewDesignator=*13
+Change Component Designator: OldDesignator= NewDesignator=*14
+Change Component Designator: OldDesignator= NewDesignator=*15
+Change Component Designator: OldDesignator= NewDesignator=*16
+Change Component Designator: OldDesignator= NewDesignator=*17
+Change Component Designator: OldDesignator= NewDesignator=*18
+Change Component Designator: OldDesignator= NewDesignator=*19
+Change Component Designator: OldDesignator= NewDesignator=*20
+Change Component Designator: OldDesignator= NewDesignator=*21
+Change Component Designator: OldDesignator= NewDesignator=*22
+Change Component Designator: OldDesignator= NewDesignator=*23
+Change Component Designator: OldDesignator= NewDesignator=*24
+Change Component Designator: OldDesignator= NewDesignator=*25
+Change Component Designator: OldDesignator= NewDesignator=*26
+Change Component Designator: OldDesignator= NewDesignator=*27
+Change Component Designator: OldDesignator= NewDesignator=*28
+Change Component Designator: OldDesignator= NewDesignator=*29
+Change Component Designator: OldDesignator= NewDesignator=*30
+Change Component Designator: OldDesignator= NewDesignator=*31
+Change Component Designator: OldDesignator= NewDesignator=*32
+Change Component Designator: OldDesignator= NewDesignator=*33
+Change Component Designator: OldDesignator= NewDesignator=*34
+Change Component Designator: OldDesignator= NewDesignator=*35
+Change Component Designator: OldDesignator= NewDesignator=*36
+Change Component Designator: OldDesignator= NewDesignator=*37
+Change Component Designator: OldDesignator= NewDesignator=*38
+Change Component Designator: OldDesignator= NewDesignator=*39
+Change Component Designator: OldDesignator= NewDesignator=*40
+Change Component Designator: OldDesignator= NewDesignator=*41
+Change Component Designator: OldDesignator= NewDesignator=*42
+Change Component Designator: OldDesignator= NewDesignator=*43
+Change Component Designator: OldDesignator= NewDesignator=*44
+Change Component Designator: OldDesignator= NewDesignator=*45
+Change Component Designator: OldDesignator= NewDesignator=*46
+Change Component Designator: OldDesignator= NewDesignator=*47
+Change Component Designator: OldDesignator= NewDesignator=*48
+Change Component Designator: OldDesignator= NewDesignator=*49
+Change Component Designator: OldDesignator= NewDesignator=*50
+Change Component Designator: OldDesignator= NewDesignator=*51
+Change Component Designator: OldDesignator= NewDesignator=*52
+Change Component Designator: OldDesignator= NewDesignator=*53
+Change Component Designator: OldDesignator= NewDesignator=*54
+Change Component Designator: OldDesignator= NewDesignator=*55
+Change Component Designator: OldDesignator= NewDesignator=*56
+Change Component Designator: OldDesignator= NewDesignator=*57
+Change Component Designator: OldDesignator= NewDesignator=*58
+Change Component Designator: OldDesignator= NewDesignator=*59
+Change Component Designator: OldDesignator= NewDesignator=*60
+Change Component Designator: OldDesignator= NewDesignator=*61
+Change Component Designator: OldDesignator= NewDesignator=*62
+Change Component Designator: OldDesignator= NewDesignator=*63
+Change Component Designator: OldDesignator= NewDesignator=*64
+Change Component Designator: OldDesignator= NewDesignator=*65
+Change Component Designator: OldDesignator= NewDesignator=*66
+Change Component Designator: OldDesignator= NewDesignator=*67
+Change Component Designator: OldDesignator= NewDesignator=*68
+Change Component Designator: OldDesignator= NewDesignator=*69
+Change Component Designator: OldDesignator= NewDesignator=*70
+Change Component Designator: OldDesignator= NewDesignator=*71
+Change Component Designator: OldDesignator= NewDesignator=*72
+Change Component Designator: OldDesignator= NewDesignator=*73
+Change Component Designator: OldDesignator= NewDesignator=*74
+Change Component Designator: OldDesignator= NewDesignator=*75
+Change Component Designator: OldDesignator= NewDesignator=*76
+Change Component Designator: OldDesignator= NewDesignator=*77
+Change Component Designator: OldDesignator= NewDesignator=*78
+Change Component Designator: OldDesignator= NewDesignator=*79
+Change Component Designator: OldDesignator= NewDesignator=*80
+Change Component Designator: OldDesignator= NewDesignator=P?
+Change Component Designator: OldDesignator= NewDesignator=VR?
+Added Member To Class: ClassName=FFT_IFFT Member=Component *1 STM32F407ZET6
+Added Member To Class: ClassName=FFT_IFFT Member=Component *2 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *4 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *5 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *6 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *7 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *8 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *9 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *10 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *11 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *12 PJ313E
+Added Member To Class: ClassName=FFT_IFFT Member=Component *13 TL432
+Added Member To Class: ClassName=FFT_IFFT Member=Component *14 3x3_10KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *15 OPA333
+Added Member To Class: ClassName=FFT_IFFT Member=Component *16 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *17 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *18 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *19 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *20 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *21 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *22 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *23 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *24 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *25 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *26 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *27 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *28 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *29 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *30 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *31 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *32 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *33 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *34 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *35 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *36 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *37 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *38 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *39 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *40 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *41 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *42 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *43 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *44 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *45 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *46 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *47 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *48 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *49 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *50 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *51 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *52 FSMC_A
+Added Member To Class: ClassName=FFT_IFFT Member=Component *53 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *54 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *55 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *56 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *57 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *58 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *59 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *60 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *61 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *62 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *63 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *64 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *65 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *66 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *67 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *68 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *69 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *70 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *71 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *72 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *73 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *74 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *75 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *76 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *77 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *78 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *79 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *80 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component * Component_1
+Added Member To Class: ClassName=FFT_IFFT Member=Component 1 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 2 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 3 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 4 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 5 560Ohm
+Added Member To Class: ClassName=FFT_IFFT Member=Component 6 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 7 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 8 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 9 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 10 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 11 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 12 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 13 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 14 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 15 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 16 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 17 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 18 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 19 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 20 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 21 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 22 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 23 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 24 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 25 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 26 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 27 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 28 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 29 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 30 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 31 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 32 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 33 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 34 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 35 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component P? Header 5
+Added Member To Class: ClassName=FFT_IFFT Member=Component VR? Volt Reg
+Added Room: Name=FFT_IFFT

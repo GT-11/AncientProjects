@@ -1,0 +1,21 @@
+Added Component: Designator=*3(104)
+Added Component: Designator=*4(104)
+Added Component: Designator=*6(104)
+Added Component: Designator=*8(104)
+Added Component: Designator=*15(104)
+Added Pin To Net: NetName=Net*3_1 Pin=*3-1
+Added Pin To Net: NetName=Net*3_2 Pin=*3-2
+Added Pin To Net: NetName=Net*4_1 Pin=*4-1
+Added Pin To Net: NetName=Net*3_2 Pin=*4-2
+Added Pin To Net: NetName=GND Pin=*6-1
+Added Pin To Net: NetName=PA4 Pin=*6-2
+Added Pin To Net: NetName=Net*7_2 Pin=*8-1
+Added Pin To Net: NetName=Net*3_2 Pin=*8-2
+Added Pin To Net: NetName=GND Pin=*15-1
+Added Pin To Net: NetName=PA4 Pin=*15-2
+Added Member To Class: ClassName=FFT_IFFT Member=Component *3 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *4 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *6 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *8 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *15 10kOhm
+Added Room: Name=FFT_IFFT

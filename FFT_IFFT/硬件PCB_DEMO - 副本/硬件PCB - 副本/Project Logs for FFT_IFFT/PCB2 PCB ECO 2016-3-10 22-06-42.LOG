@@ -1,0 +1,35 @@
+Added Component: Designator=39(104)
+Added Component: Designator=40(104)
+Added Component: Designator=41(104)
+Added Component: Designator=42(104)
+Added Component: Designator=43(104)
+Added Component: Designator=44(104)
+Added Component: Designator=45(104)
+Added Component: Designator=46(104)
+Added Pin To Net: NetName=GND Pin=*1-1
+Added Pin To Net: NetName=GND Pin=*1-132
+Added Pin To Net: NetName=VCC Pin=39-1
+Added Pin To Net: NetName=GND Pin=39-2
+Added Pin To Net: NetName=VCC Pin=40-1
+Added Pin To Net: NetName=GND Pin=40-2
+Added Pin To Net: NetName=VCC Pin=41-1
+Added Pin To Net: NetName=GND Pin=41-2
+Added Pin To Net: NetName=VCC Pin=42-1
+Added Pin To Net: NetName=GND Pin=42-2
+Added Pin To Net: NetName=VCC Pin=43-1
+Added Pin To Net: NetName=GND Pin=43-2
+Added Pin To Net: NetName=VCC Pin=44-1
+Added Pin To Net: NetName=GND Pin=44-2
+Added Pin To Net: NetName=VCC Pin=45-1
+Added Pin To Net: NetName=GND Pin=45-2
+Added Pin To Net: NetName=VCC Pin=46-1
+Added Pin To Net: NetName=GND Pin=46-2
+Added Member To Class: ClassName=FFT_IFFT Member=Component 39 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 40 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 41 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 42 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 43 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 44 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 45 104
+Added Member To Class: ClassName=FFT_IFFT Member=Component 46 104
+Added Room: Name=FFT_IFFT

@@ -1,0 +1,14 @@
+[DesignatorManager]
+LogicalDesignator0=P5
+LogicalPartID0=1
+DocumentName0=Sheet1.SchDoc
+ChannelName0=Sheet1
+UniqueID0=\JAPYNAPB
+PhysicalDesignator0=P7
+PhysicalDesignatorLocked0=0
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+

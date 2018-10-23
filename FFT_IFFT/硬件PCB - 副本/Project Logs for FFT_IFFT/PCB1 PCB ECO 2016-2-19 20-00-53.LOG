@@ -1,0 +1,169 @@
+Removed Pin From Net: NetName=CLK8 Pin=1-11
+Removed Pin From Net: NetName=CLK7 Pin=4-11
+Removed Pin From Net: NetName=CLK6 Pin=6-11
+Removed Pin From Net: NetName=CLK5 Pin=8-11
+Removed Pin From Net: NetName=CLK1 Pin=33-11
+Removed Pin From Net: NetName=CLK2 Pin=35-11
+Removed Pin From Net: NetName=CLK3 Pin=37-11
+Removed Pin From Net: NetName=CLK4 Pin=40-11
+Change Component Designator: OldDesignator= NewDesignator=*
+Change Component Designator: OldDesignator= NewDesignator=*18
+Change Component Designator: OldDesignator= NewDesignator=*19
+Change Component Designator: OldDesignator= NewDesignator=*20
+Change Component Designator: OldDesignator= NewDesignator=*21
+Change Component Designator: OldDesignator= NewDesignator=*22
+Change Component Designator: OldDesignator= NewDesignator=*23
+Change Component Designator: OldDesignator= NewDesignator=*24
+Change Component Designator: OldDesignator= NewDesignator=*25
+Change Component Designator: OldDesignator= NewDesignator=*26
+Change Component Designator: OldDesignator= NewDesignator=*27
+Change Component Designator: OldDesignator= NewDesignator=*28
+Change Component Designator: OldDesignator= NewDesignator=*29
+Change Component Designator: OldDesignator= NewDesignator=*30
+Change Component Designator: OldDesignator= NewDesignator=*31
+Change Component Designator: OldDesignator= NewDesignator=*32
+Change Component Designator: OldDesignator= NewDesignator=*33
+Change Component Designator: OldDesignator= NewDesignator=*34
+Change Component Designator: OldDesignator= NewDesignator=*35
+Change Component Designator: OldDesignator= NewDesignator=*36
+Change Component Designator: OldDesignator= NewDesignator=*37
+Change Component Designator: OldDesignator= NewDesignator=*38
+Change Component Designator: OldDesignator= NewDesignator=*39
+Change Component Designator: OldDesignator= NewDesignator=*40
+Added Component: Designator=*41(104)
+Added Component: Designator=*42(104)
+Added Component: Designator=*43(104)
+Added Component: Designator=*44(104)
+Added Component: Designator=*45(104)
+Added Component: Designator=*46(104)
+Added Component: Designator=*47(104)
+Added Component: Designator=*48(104)
+Added Component: Designator=*49(104)
+Added Component: Designator=*50(104)
+Added Component: Designator=*51(104)
+Added Component: Designator=*52(104)
+Added Component: Designator=*53(104)
+Added Component: Designator=*54(104)
+Added Component: Designator=*55(104)
+Added Component: Designator=*56(104)
+Added Component: Designator=*57(104)
+Added Component: Designator=*58(104)
+Added Component: Designator=*59(104)
+Added Component: Designator=*60(104)
+Added Component: Designator=*61(104)
+Added Component: Designator=*62(104)
+Added Component: Designator=*63(104)
+Added Component: Designator=*64(104)
+Added Pin To Net: NetName=CLKG1 Pin=*41-1
+Added Pin To Net: NetName=CLKG2 Pin=*42-1
+Added Pin To Net: NetName=CLKG1 Pin=*43-1
+Added Pin To Net: NetName=CLKG2 Pin=*44-1
+Added Pin To Net: NetName=GND Pin=*45-1
+Added Pin To Net: NetName=GND Pin=*46-1
+Added Pin To Net: NetName=CLKG3 Pin=*47-1
+Added Pin To Net: NetName=CLKG4 Pin=*48-1
+Added Pin To Net: NetName=CLKG3 Pin=*49-1
+Added Pin To Net: NetName=CLKG4 Pin=*50-1
+Added Pin To Net: NetName=GND Pin=*51-1
+Added Pin To Net: NetName=GND Pin=*52-1
+Added Pin To Net: NetName=CLKG5 Pin=*53-1
+Added Pin To Net: NetName=CLKG6 Pin=*54-1
+Added Pin To Net: NetName=CLKG5 Pin=*55-1
+Added Pin To Net: NetName=CLKG6 Pin=*56-1
+Added Pin To Net: NetName=GND Pin=*57-1
+Added Pin To Net: NetName=GND Pin=*58-1
+Added Pin To Net: NetName=CLKG7 Pin=*59-1
+Added Pin To Net: NetName=CLKG8 Pin=*60-1
+Added Pin To Net: NetName=CLKG7 Pin=*61-1
+Added Pin To Net: NetName=CLKG8 Pin=*62-1
+Added Pin To Net: NetName=GND Pin=*63-1
+Added Pin To Net: NetName=GND Pin=*64-1
+Added Pin To Net: NetName=CLK1_ Pin=*41-2
+Added Pin To Net: NetName=CLK1_ Pin=*43-2
+Added Pin To Net: NetName=CLK1_ Pin=*45-2
+Added Pin To Net: NetName=CLK1_ Pin=33-11
+Added Net: Name=CLK1_
+Added Pin To Net: NetName=CLK2_ Pin=*42-2
+Added Pin To Net: NetName=CLK2_ Pin=*44-2
+Added Pin To Net: NetName=CLK2_ Pin=*46-2
+Added Pin To Net: NetName=CLK2_ Pin=35-11
+Added Net: Name=CLK2_
+Added Pin To Net: NetName=CLK3_ Pin=*47-2
+Added Pin To Net: NetName=CLK3_ Pin=*49-2
+Added Pin To Net: NetName=CLK3_ Pin=*51-2
+Added Pin To Net: NetName=CLK3_ Pin=37-11
+Added Net: Name=CLK3_
+Added Pin To Net: NetName=CLK4_ Pin=*48-2
+Added Pin To Net: NetName=CLK4_ Pin=*50-2
+Added Pin To Net: NetName=CLK4_ Pin=*52-2
+Added Pin To Net: NetName=CLK4_ Pin=40-11
+Added Net: Name=CLK4_
+Added Pin To Net: NetName=CLK5_ Pin=*53-2
+Added Pin To Net: NetName=CLK5_ Pin=*55-2
+Added Pin To Net: NetName=CLK5_ Pin=*57-2
+Added Pin To Net: NetName=CLK5_ Pin=8-11
+Added Net: Name=CLK5_
+Added Pin To Net: NetName=CLK6_ Pin=*54-2
+Added Pin To Net: NetName=CLK6_ Pin=*56-2
+Added Pin To Net: NetName=CLK6_ Pin=*58-2
+Added Pin To Net: NetName=CLK6_ Pin=6-11
+Added Net: Name=CLK6_
+Added Pin To Net: NetName=CLK7_ Pin=*59-2
+Added Pin To Net: NetName=CLK7_ Pin=*61-2
+Added Pin To Net: NetName=CLK7_ Pin=*63-2
+Added Pin To Net: NetName=CLK7_ Pin=4-11
+Added Net: Name=CLK7_
+Added Pin To Net: NetName=CLK8_ Pin=*60-2
+Added Pin To Net: NetName=CLK8_ Pin=*62-2
+Added Pin To Net: NetName=CLK8_ Pin=*64-2
+Added Pin To Net: NetName=CLK8_ Pin=1-11
+Added Net: Name=CLK8_
+Added Member To Class: ClassName=FFT_IFFT Member=Component *18 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *19 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *20 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *21 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *22 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *23 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *24 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *25 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *26 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *27 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *28 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *29 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *30 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *31 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *32 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *33 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *34 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *35 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *36 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *37 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *38 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *39 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *40 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *41 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *42 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *43 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *44 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *45 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *46 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *47 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *48 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *49 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *50 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *51 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *52 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *53 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *54 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *55 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *56 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *57 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *58 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *59 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *60 30PF
+Added Member To Class: ClassName=FFT_IFFT Member=Component *61 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *62 1KOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *63 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component *64 10kOhm
+Added Member To Class: ClassName=FFT_IFFT Member=Component * 30PF
+Added Room: Name=FFT_IFFT

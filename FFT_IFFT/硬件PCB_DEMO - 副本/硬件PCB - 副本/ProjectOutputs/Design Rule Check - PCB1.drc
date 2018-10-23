@@ -1,0 +1,80 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Administrator\Desktop\RTOS\RTOS\频谱FFT_IFFT\硬件PCB - 副本\PCB1.PcbDoc
+Date     : 2016/2/23 星期二
+Time     : 上午 11:59:20
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (InNet('AOG0','AOG1','AOG2','AOG3','AOG4','AOG5','AOG6','AOG7','AOG8','AOG9','AOG10','AOG11','AOG12','AOG13','AOG14','AOG15'))
+   Violation between Track (40270.197mil,16252.598mil)(40270.197mil,16252.599mil)  Bottom Layer
+   Violation between Track (40380mil,16492.599mil)(40380mil,16492.598mil)  Bottom Layer
+   Violation between Track (40370mil,17452.598mil)(40370mil,17452.599mil)  Bottom Layer
+Rule Violations :3
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation between Net GND is broken into 71 sub-nets. Routed To 4.11%
+     Subnet : 58-8     80-2          Subnet : 58-5          Subnet : 81-2          Subnet : 59-8     96-2          Subnet : 77-2          Subnet : 78-2          Subnet : 74-2          Subnet : 76-2          Subnet : 75-2          Subnet : *21-1         Subnet : 34-10         Subnet : 83-2          Subnet : 35-10         Subnet : *46-1         Subnet : 79-2     33-10         Subnet : 59-5          Subnet : *45-1         Subnet : *57-1         Subnet : 8-10          Subnet : 82-2          Subnet : 59-4          Subnet : 7-10          Subnet : 85-2          Subnet : *33-1         Subnet : *58-1         Subnet : 6-10          Subnet : 92-2          Subnet : 72-2          Subnet : 73-2          Subnet : 69-2          Subnet : 71-2          Subnet : 70-2          Subnet : 84-2          Subnet : 36-10         Subnet : 86-2          Subnet : *22-1         Subnet : 37-10         Subnet : 87-2          Subnet : *51-1         Subnet : 88-2          Subnet : 89-2          Subnet : *52-1         Subnet : *27-1         Subnet : 38-10         Subnet : 39-10         Subnet : *28-1         Subnet : *65-18        Subnet : 40-10         Subnet : 68-2          Subnet : 5-10          Subnet : 57-8          Subnet : 4-10          Subnet : 3-10          Subnet : 95-2          Subnet : *34-1         Subnet : *63-1         Subnet : 93-2          Subnet : 94-2          Subnet : *39-1         Subnet : *65-34        Subnet : *65-99        Subnet : *65-84        Subnet : *65-1         Subnet : *65-49        Subnet : *65-132       Subnet : 2-10          Subnet : *40-1         Subnet : 91-2          Subnet : 1-10          Subnet : *64-1         Subnet : 90-2     
+   Violation between Net INPUT0 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-2          Subnet : 8-2      6-2      4-2      2-2           Subnet : 35-2          Subnet : 37-2          Subnet : 39-2     
+   Violation between Net INPUT1 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-3          Subnet : 8-3      6-3      4-3      2-3           Subnet : 35-3          Subnet : 37-3          Subnet : 39-3     
+   Violation between Net INPUT2 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-4          Subnet : 8-4      6-4      4-4      2-4           Subnet : 35-4          Subnet : 37-4          Subnet : 39-4     
+   Violation between Net INPUT3 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-5          Subnet : 8-5      6-5      4-5      2-5           Subnet : 35-5          Subnet : 37-5          Subnet : 39-5     
+   Violation between Net INPUT4 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-6          Subnet : 8-6      6-6      4-6      2-6           Subnet : 35-6          Subnet : 39-6          Subnet : 37-6     
+   Violation between Net INPUT5 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-7          Subnet : 8-7      6-7      4-7      2-7           Subnet : 35-7          Subnet : 39-7          Subnet : 37-7     
+   Violation between Net INPUT6 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-8          Subnet : 8-8      6-8      2-8      4-8           Subnet : 35-8          Subnet : 37-8          Subnet : 39-8     
+   Violation between Net INPUT7 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 33-9          Subnet : 8-9      6-9      4-9      2-9           Subnet : 35-9          Subnet : 39-9          Subnet : 37-9     
+   Violation between Net INPUT8 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-2          Subnet : 7-2      5-2      3-2      1-2           Subnet : 36-2          Subnet : 38-2          Subnet : 40-2     
+   Violation between Net INPUT9 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-3          Subnet : 7-3      5-3      3-3      1-3           Subnet : 36-3          Subnet : 38-3          Subnet : 40-3     
+   Violation between Net INPUT10 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-4          Subnet : 7-4      5-4      3-4      1-4           Subnet : 36-4          Subnet : 38-4          Subnet : 40-4     
+   Violation between Net INPUT11 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-5          Subnet : 7-5      5-5      3-5      1-5           Subnet : 36-5          Subnet : 38-5          Subnet : 40-5     
+   Violation between Net INPUT12 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 7-6      5-6      3-6      1-6           Subnet : 34-6          Subnet : 36-6          Subnet : 38-6          Subnet : 40-6     
+   Violation between Net INPUT13 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-7          Subnet : 7-7      5-7      3-7      1-7           Subnet : 36-7          Subnet : 38-7          Subnet : 40-7     
+   Violation between Net INPUT14 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-8          Subnet : 7-8      5-8      3-8      1-8           Subnet : 36-8          Subnet : 38-8          Subnet : 40-8     
+   Violation between Net INPUT15 is broken into 5 sub-nets. Routed To 42.86%
+     Subnet : 34-9          Subnet : 7-9      5-9      3-9      1-9           Subnet : 36-9          Subnet : 38-9          Subnet : 40-9     
+   Violation between Net VCC is broken into 51 sub-nets. Routed To 41.18%
+     Subnet : 10-2     *3-3          Subnet : *5-3     12-2          Subnet : 11-2     *4-3          Subnet : 22-2     *7-3          Subnet : 24-2     *9-3          Subnet : 21-2     *6-3          Subnet : 23-2     *8-3          Subnet : 41-2     *10-3         Subnet : 9-2      *2-3          Subnet : 42-2     *11-3         Subnet : 54-2     *15-3         Subnet : 44-2     *13-3         Subnet : 56-2     *17-3         Subnet : 79-1     33-20         Subnet : 43-2     *12-3         Subnet : 53-2     *14-3         Subnet : 55-2     *16-3         Subnet : 34-20    81-1          Subnet : 35-20    83-1          Subnet : 75-1          Subnet : 73-1          Subnet : 74-1          Subnet : 78-1          Subnet : 76-1          Subnet : 77-1          Subnet : 58-16    80-1          Subnet : 59-16    96-1          Subnet : 58-6          Subnet : 72-1          Subnet : 71-1          Subnet : 36-20    84-1          Subnet : 70-1          Subnet : 69-1          Subnet : 38-20    87-1          Subnet : 88-1     39-20         Subnet : 86-1     37-20         Subnet : 40-20    89-1          Subnet : *65-33        Subnet : *65-50        Subnet : *65-17        Subnet : 82-1     8-20          Subnet : 85-1     7-20          Subnet : 92-1     6-20          Subnet : 68-1     57-16         Subnet : 95-1     5-20          Subnet : 93-1     3-20          Subnet : 94-1     4-20          Subnet : 91-1     2-20          Subnet : *65-83        Subnet : *65-116       Subnet : 90-1     1-20     
+   Violation between Net Net58_1 is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : 58-1          Subnet : 59-1     
+   Violation between Net Net58_2 is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : 58-2          Subnet : 59-2     
+   Violation between Net Net58_3 is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : 58-3          Subnet : 59-3     
+   Violation between Net Net58_4 is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : 58-4          Subnet : 59-6     
+   Violation between Net Net*1_92 is broken into 2 sub-nets. Routed To 93.75%
+     Subnet : *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92    *1-92                  *1-92    *1-92    *1-92    *1-92    *1-92    *1-92         Subnet : 7-16     
+   Violation between Net CLK3_ is broken into 4 sub-nets. Routed To 0.00%
+     Subnet : *51-2         Subnet : 37-11         Subnet : *49-2         Subnet : *47-2    
+Rule Violations :24
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 27
+Time Elapsed        : 00:00:01
