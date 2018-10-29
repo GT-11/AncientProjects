@@ -5,12 +5,12 @@
 ..\obj\ff.o: ..\FATFS\src\diskio.h
 ..\obj\ff.o: ..\SYSTEM\sys\sys.h
 ..\obj\ff.o: ..\USER\stm32f4xx.h
-..\obj\ff.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\ff.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\ff.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\ff.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\ff.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\ff.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\ff.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\ff.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ff.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\ff.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\ff.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\ff.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\ff.o: ..\USER\system_stm32f4xx.h
 ..\obj\ff.o: ..\USER\stm32f4xx_conf.h
 ..\obj\ff.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -35,4 +35,4 @@
 ..\obj\ff.o: ..\FWLIB\inc\misc.h
 ..\obj\ff.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\ff.o: ..\HARDWARE\SDIO\attributes.h
-..\obj\ff.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+..\obj\ff.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

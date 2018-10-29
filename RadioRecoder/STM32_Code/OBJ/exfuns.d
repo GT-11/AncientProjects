@@ -1,13 +1,13 @@
 ..\obj\exfuns.o: ..\FATFS\exfuns\exfuns.c
-..\obj\exfuns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\exfuns.o: ..\FATFS\exfuns\exfuns.h
 ..\obj\exfuns.o: ..\USER\stm32f4xx.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\exfuns.o: ..\USER\system_stm32f4xx.h
 ..\obj\exfuns.o: ..\USER\stm32f4xx_conf.h
 ..\obj\exfuns.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -37,5 +37,5 @@
 ..\obj\exfuns.o: ..\FATFS\exfuns\fattester.h
 ..\obj\exfuns.o: ..\MALLOC\malloc.h
 ..\obj\exfuns.o: ..\SYSTEM\usart\usart.h
-..\obj\exfuns.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\exfuns.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\exfuns.o: ..\SYSTEM\sys\sys.h

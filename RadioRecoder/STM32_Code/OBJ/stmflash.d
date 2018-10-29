@@ -2,12 +2,12 @@
 ..\obj\stmflash.o: ..\HARDWARE\STMFLASH\stmflash.h
 ..\obj\stmflash.o: ..\SYSTEM\sys\sys.h
 ..\obj\stmflash.o: ..\USER\stm32f4xx.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\stmflash.o: ..\USER\system_stm32f4xx.h
 ..\obj\stmflash.o: ..\USER\stm32f4xx_conf.h
 ..\obj\stmflash.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -33,4 +33,4 @@
 ..\obj\stmflash.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\stmflash.o: ..\SYSTEM\delay\delay.h
 ..\obj\stmflash.o: ..\SYSTEM\usart\usart.h
-..\obj\stmflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\stmflash.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

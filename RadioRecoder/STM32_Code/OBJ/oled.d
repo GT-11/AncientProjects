@@ -2,12 +2,12 @@
 ..\obj\oled.o: ..\HARDWARE\OLED\oled.h
 ..\obj\oled.o: ..\SYSTEM\sys\sys.h
 ..\obj\oled.o: ..\USER\stm32f4xx.h
-..\obj\oled.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\oled.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\oled.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\oled.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\oled.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\oled.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\oled.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\oled.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\oled.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\oled.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\oled.o: ..\USER\system_stm32f4xx.h
 ..\obj\oled.o: ..\USER\stm32f4xx_conf.h
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -31,5 +31,5 @@
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_wwdg.h
 ..\obj\oled.o: ..\FWLIB\inc\misc.h
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
-..\obj\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\oled.o: ..\HARDWARE\OLED\oledfont.h

@@ -1,11 +1,11 @@
 ..\obj\fatfs_sd_sdio.o: ..\HARDWARE\SDIO\fatfs_sd_sdio.c
 ..\obj\fatfs_sd_sdio.o: ..\USER\stm32f4xx.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\fatfs_sd_sdio.o: ..\USER\system_stm32f4xx.h
 ..\obj\fatfs_sd_sdio.o: ..\USER\stm32f4xx_conf.h
 ..\obj\fatfs_sd_sdio.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -38,6 +38,6 @@
 ..\obj\fatfs_sd_sdio.o: ..\HARDWARE\SDIO\tm_stm32f4_gpio.h
 ..\obj\fatfs_sd_sdio.o: ..\FATFS\src\ff.h
 ..\obj\fatfs_sd_sdio.o: ..\FATFS\src\ffconf.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\obj\fatfs_sd_sdio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\fatfs_sd_sdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -2,12 +2,12 @@
 ..\obj\24l01.o: ..\HARDWARE\NRF24L01\24l01.h
 ..\obj\24l01.o: ..\SYSTEM\sys\sys.h
 ..\obj\24l01.o: ..\USER\stm32f4xx.h
-..\obj\24l01.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\24l01.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\24l01.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\24l01.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\24l01.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\24l01.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\24l01.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\24l01.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\24l01.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\24l01.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\24l01.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\24l01.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\24l01.o: ..\USER\system_stm32f4xx.h
 ..\obj\24l01.o: ..\USER\stm32f4xx_conf.h
 ..\obj\24l01.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -32,6 +32,6 @@
 ..\obj\24l01.o: ..\FWLIB\inc\misc.h
 ..\obj\24l01.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\24l01.o: ..\HARDWARE\LCD\lcd.h
-..\obj\24l01.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\24l01.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\24l01.o: ..\SYSTEM\delay\delay.h
 ..\obj\24l01.o: ..\HARDWARE\SPI\spi.h

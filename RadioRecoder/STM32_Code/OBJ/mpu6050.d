@@ -3,12 +3,12 @@
 ..\obj\mpu6050.o: ..\HARDWARE\IIC\myiic.h
 ..\obj\mpu6050.o: ..\SYSTEM\sys\sys.h
 ..\obj\mpu6050.o: ..\USER\stm32f4xx.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\mpu6050.o: ..\USER\system_stm32f4xx.h
 ..\obj\mpu6050.o: ..\USER\stm32f4xx_conf.h
 ..\obj\mpu6050.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -34,4 +34,4 @@
 ..\obj\mpu6050.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\mpu6050.o: ..\SYSTEM\delay\delay.h
 ..\obj\mpu6050.o: ..\SYSTEM\usart\usart.h
-..\obj\mpu6050.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\mpu6050.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

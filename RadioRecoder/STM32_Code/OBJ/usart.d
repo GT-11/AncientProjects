@@ -1,12 +1,12 @@
 ..\obj\usart.o: ..\SYSTEM\usart\usart.c
 ..\obj\usart.o: ..\SYSTEM\sys\sys.h
 ..\obj\usart.o: ..\USER\stm32f4xx.h
-..\obj\usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
-..\obj\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-..\obj\usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
-..\obj\usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
-..\obj\usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
-..\obj\usart.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+..\obj\usart.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+..\obj\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usart.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+..\obj\usart.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+..\obj\usart.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+..\obj\usart.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
 ..\obj\usart.o: ..\USER\system_stm32f4xx.h
 ..\obj\usart.o: ..\USER\stm32f4xx_conf.h
 ..\obj\usart.o: ..\FWLIB\inc\stm32f4xx_adc.h
@@ -31,4 +31,4 @@
 ..\obj\usart.o: ..\FWLIB\inc\misc.h
 ..\obj\usart.o: ..\FWLIB\inc\stm32f4xx_flash_ramfunc.h
 ..\obj\usart.o: ..\SYSTEM\usart\usart.h
-..\obj\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
