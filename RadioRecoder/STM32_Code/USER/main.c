@@ -753,6 +753,97 @@ int main(void)
 	
 	
 	
+	
+	
+	
+	
+	if(FLASH_DATA.BIND_NAME[0] != 0xff)
+	{
+			OLED_Clear( );
+			delay_ms(10);
+			OLED_ShowString(0,0,"Bind Name:",16);
+			OLED_ShowString(0,2,(u8*)FLASH_DATA.BIND_NAME,16);
+			//OLED_ShowString(0,4,(u8*)FLASH_DATA.SERVER_IP,16);
+			OLED_ShowString(0,6,"Bind?",16);
+			if(PressKey() == 0)
+			{
+				for(i = 0;i<8;i++)
+					initfilename[i] = BordID[i];
+				for(i = 0;i< 12;i++)
+					initfilename[i + 8] = FLASH_DATA.BIND_NAME[i];
+				
+				
+				
+				
+				while(1)
+				{
+					LED0 = !LED0;
+					LED1 = !LED1;
+					delay_ms(25);
+
+					delay_ms(25);
+				
+					RecvComLoc3 = StrEqual(USART_RX_BUF,"Bindind Check Confirm\r\n",USART_REC_LEN,strlen("Bindind Check Confirm\r\n"));
+					if(RecvComLoc3 != -1)
+					{
+						OLED_Clear( );
+						delay_ms(10);
+						OLED_ShowString(0,0,"Binding",16);
+						OLED_ShowString(0,2,"Succeeded!",16);
+						delay_ms(2000);
+						break;
+					}
+					
+					
+					RecvComLoc2 = strlen(FLASH_DATA.BIND_NAME);
+					
+					
+					
+					delay_ms(50);
+					
+					printf("Do Bindind Cheking\r\n");
+					RecvComLoc3 = 0;
+					UARTSendData(&((u8*)&RecvComLoc2)[3],1);
+					UARTSendData(&((u8*)&RecvComLoc2)[2],1);
+					UARTSendData(&((u8*)&RecvComLoc2)[1],1);
+					UARTSendData(&((u8*)&RecvComLoc2)[0],1);
+					for(i = 0;i<strlen("Do Bindind Cheking\r\n");i++)
+						RecvComLoc3+="Do Bindind Cheking\r\n"[i];
+					for(i = 0;i<8;i++)
+						RecvComLoc3+=BordID[i];
+					for(i = 0;i< RecvComLoc2;i++)
+						RecvComLoc3+=initfilename[i + 8];
+					UARTSendData(&((u8*)&RecvComLoc3)[3],1);
+					UARTSendData(&((u8*)&RecvComLoc3)[2],1);
+					UARTSendData(&((u8*)&RecvComLoc3)[1],1);
+					UARTSendData(&((u8*)&RecvComLoc3)[0],1);
+					UARTSendData(BordID,8);
+					UARTSendData(&initfilename[8],RecvComLoc2);
+				}
+				
+				
+				
+				
+				
+				
+				goto main_start;
+			}
+			else
+			{
+
+			}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	OLED_Clear( );
 	delay_ms(10);
 	OLED_ShowString(0,0,"Waiting Binding",16);
@@ -813,7 +904,9 @@ int main(void)
 				for(i = 0;i< RecvComLoc2;i++)
 				{
 					initfilename[i + 8] = USART_RX_BUF[RecvComLoc3 + 17 + i];
+					FLASH_DATA.BIND_NAME[i] = initfilename[i + 8];
 				}
+				FLASH_DATA.BIND_NAME[i] = 0;
 				timecnt = 0;
 				OLED_ShowString(0,4,"                ",16);
 				OLED_ShowString(0,2,"Request from:",16);
@@ -921,6 +1014,8 @@ int main(void)
 					UARTSendData(&((u8*)&RecvComLoc3)[0],1);
 		}
 	}
+	STMFLASH_Write(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(struct FLASH_SAVE));
+	main_start:
 	
 	ClearBuffer(USART_RX_BUF,USART_REC_LEN);
 	delay_ms(200);
