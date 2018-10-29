@@ -135,16 +135,16 @@ namespace RecoderServerApplication
         {
             RF_DataAnalysis.CastSend_Init(SoftID, FS.Text,GADFS.Text, textBox12.Text);
         }
-        private void BindClink(object sender, MouseButtonEventArgs e)
-        {
-            string[] ArryPort = { "1", "2", "3", "4", "5", "asdcva" };
-            bindname.Items.Clear();
-            for (int i = 0; i < ArryPort.Length; i++)
-            {
-                bindname.Items.Add(ArryPort[i]);
-            }
-            bindname.SelectedIndex = 0;
-        }
+        //private void BindClink(object sender, MouseButtonEventArgs e)
+        //{
+        //    string[] ArryPort = { "1", "2", "3", "4", "5", "asdcva" };
+        //    bindname.Items.Clear();
+        //    for (int i = 0; i < ArryPort.Length; i++)
+        //    {
+        //        bindname.Items.Add(ArryPort[i]);
+        //    }
+        //    bindname.SelectedIndex = 0;
+        //}
 
         Timer Radio_Thread = new Timer(100);
         bool Radio_MultiThread = true;
@@ -152,7 +152,14 @@ namespace RecoderServerApplication
         {
             try
             {
-                listbox_value = bindname.SelectedItem.ToString().Trim();
+                char[] remove = { ' ','\r','\n' };
+                string bind = bindname.Text.Trim(remove);
+                if (bind.Length > 10)
+                {
+                    MessageBox.Show("绑定名称过长");
+                    return;
+                }
+                listbox_value = bindname.Text.Trim(remove).ToString().Trim();
             }
             catch(Exception e2)
             {

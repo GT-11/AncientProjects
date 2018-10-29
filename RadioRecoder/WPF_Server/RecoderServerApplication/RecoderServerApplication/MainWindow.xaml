@@ -44,7 +44,6 @@
         <Button Content="Read" HorizontalAlignment="Left" Margin="831,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <TextBox Name="SessionID" HorizontalAlignment="Left" Height="23" Margin="706,38,0,0" TextWrapping="Wrap" Text="1a2b3c4d5e01010" VerticalAlignment="Top" Width="120"/>
         <Label Content="SessionID:" HorizontalAlignment="Left" Margin="630,36,0,0" VerticalAlignment="Top" Width="71"/>
-        <ComboBox Name="bindname" HorizontalAlignment="Left" Margin="706,81,0,0" VerticalAlignment="Top" Width="120" PreviewMouseLeftButtonDown="BindClink"/>
         <Button Name="bindb" Content="Bind" HorizontalAlignment="Left" Margin="831,83,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" IsEnabled="False"/>
         <Button Name="radiate" IsEnabled="False" Content="Radiate" HorizontalAlignment="Left" Margin="246,13,0,0" VerticalAlignment="Top" Width="75" Click="radiate_Click"/>
         <ListView Name="list" HorizontalAlignment="Left" Height="248" Margin="12,37,0,0" VerticalAlignment="Top" Width="595">
@@ -70,6 +69,7 @@
         <Button Name="calib" Content="Calibration" HorizontalAlignment="Left" Height="19" Margin="630,271,0,0" VerticalAlignment="Top" Width="75" Click="calib_Click"/>
         <Label Content="Server IP:" HorizontalAlignment="Left" Margin="696,489,0,0" VerticalAlignment="Top"/>
         <TextBox Name="serverip" HorizontalAlignment="Left" Height="23" Margin="774,489,0,0" TextWrapping="Wrap" Text="192.168.100.155" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="bindname" HorizontalAlignment="Left" Height="23" Margin="706,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
 
 
