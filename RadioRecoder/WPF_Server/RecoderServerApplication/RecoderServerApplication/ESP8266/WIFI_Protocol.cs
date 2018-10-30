@@ -65,10 +65,93 @@ namespace RecoderServerApplication.ESP8266
             }
             return return_value;
         }
+        public static void AnalysisRawData(ref byte[] srcdata, ref List<TransData_Struct> RecvArray)
+        {
+            bool isSearch = true;
+            while (isSearch)
+            {
+                //string str = System.Text.Encoding.ASCII.GetString(srcdata);
+                //str = str.Replace('\0', '*');
+                isSearch = false;
+
+
+                byte[][] search_list = new byte[Dic_Protocol.Count][];
+                for (int i = 0; i < search_list.Length; i++)
+                    search_list[i] = Encoding.ASCII.GetBytes(Dic_Protocol[(Protocol_Keyword)i].State_string);
+
+                List<int>[] recvfindlist = Search_ByteArray_String(ref srcdata, ref search_list);
+
+                for (int i = 0; i < recvfindlist.Length; i++) 
+                {
+                    for (int j = 0; j < recvfindlist[i].Count; j++)
+                    {
+                        int commLoc = recvfindlist[i][j];
+                        if ((commLoc + search_list[i].Length + 4 + 4) >= srcdata.Length)
+                        {
+                            for (int k = 0; k < search_list[i].Length; k++)
+                                srcdata[commLoc + k] = 0;
+                            break;
+                        }
+                        int recvdatalen = srcdata[commLoc + search_list[i].Length] << 24;
+                        recvdatalen |= srcdata[commLoc + search_list[i].Length + 1] << 16;
+                        recvdatalen |= srcdata[commLoc + search_list[i].Length + 2] << 8;
+                        recvdatalen |= srcdata[commLoc + search_list[i].Length + 3];
+                        int recvdatacheck = srcdata[commLoc + search_list[i].Length + 4] << 24;
+                        recvdatacheck |= srcdata[commLoc + search_list[i].Length + 4 + 1] << 16;
+                        recvdatacheck |= srcdata[commLoc + search_list[i].Length + 4 + 2] << 8;
+                        recvdatacheck |= srcdata[commLoc + search_list[i].Length + 4 + 3];
+                        int recvsum = 0;
+                        for (int k = 0; k < search_list[i].Length; k++)
+                            recvsum += search_list[i][k];
+                        if (recvdatalen > 1024 * 20 || (commLoc + search_list[i].Length + 4 + 4 + recvdatalen + 8) >= srcdata.Length)
+                        {
+                            for (int k = 0; k < search_list[i].Length; k++)
+                                srcdata[commLoc + k] = 0;
+                            break;
+                        }
+
+                        for (int k = 0; k < recvdatalen + 8; k++)
+                            recvsum += srcdata[commLoc + search_list[i].Length + 4 + 4 + k];
+                        if (recvsum == recvdatacheck)
+                        {
+                            byte[] deviceid = new byte[8];
+                            byte[] data = null;
+                            Array.Copy(srcdata, commLoc + search_list[i].Length + 4 + 4, deviceid, 0, 8);
+                            if (recvdatalen > 0)
+                            {
+                                data = new byte[recvdatalen];
+                                Array.Copy(srcdata, commLoc + search_list[i].Length + 4 + 4 + 8, data, 0, recvdatalen);
+                            }
+                            TransData_Struct recv = new TransData_Struct
+                            {
+                                Keyword = (Protocol_Keyword)i,
+                                Device_ID = deviceid,
+                                Data = data
+                            };
+                            RecvArray.Add(recv);
+                            for (int k = 0; k < search_list[i].Length; k++)
+                                srcdata[commLoc + k] = 0;
+                            deviceid = null;
+                            data = null;
+                            isSearch = true;
+                            break;
+                        }
+                        else
+                        {
+                            if (recvfindlist[i].Count - 1 != j)
+                            {
+                                for (int k = 0; k < search_list[i].Length; k++)
+                                    srcdata[commLoc + k] = 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
 
 
-        public static void AnalysisRawData(ref byte[] srcdata,ref List<TransData_Struct> RecvArray)
+        public static void AnalysisRawData_2(ref byte[] srcdata,ref List<TransData_Struct> RecvArray)
         {
             bool isSearch = true;
             while (isSearch)
