@@ -213,6 +213,18 @@ namespace RecoderServerApplication
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            byte[] aaa  = new byte[1024 * 32];
+            byte[][] bbb = new byte[Protocol_Keyword_Function.Dic_Protocol.Count][];
+            for (int i = 0; i < bbb.Length; i ++)
+            {
+                bbb[i] = Encoding.ASCII.GetBytes(Dic_Protocol[(Protocol_Keyword)i].State_string);
+            }
+            Random re = new Random();
+            for(int i = 0;i<10000;i++)
+                bbb[i % bbb.Length].CopyTo(aaa,re.Next(0,aaa.Length - bbb[i % bbb.Length].Length));
+            List<int>[] ddd= WIFI_Protocol.Search_ByteArray_String(ref aaa, ref bbb);
+ 
+            MessageBox.Show(ddd[0].Count.ToString());
 
         }
         bool iswifibutton = false;

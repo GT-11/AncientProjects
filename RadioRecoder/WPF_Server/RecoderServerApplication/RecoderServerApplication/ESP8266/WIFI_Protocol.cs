@@ -40,6 +40,34 @@ namespace RecoderServerApplication.ESP8266
                 return search_loc;
             return -1;
         }
+
+        public static List<int>[] Search_ByteArray_String(ref byte[] srcdata, ref byte[][] data)
+        {
+            int[] search_len = new int[data.Length];
+            List<int>[] return_value = new List<int>[data.Length];
+            for (int i = 0; i < data.Length; i++)
+                return_value[i]= new List<int>();
+
+            for (int i = 0; i < srcdata.Length; i++)
+            {
+                for (int j = 0; j < data.Length; j++)
+                {
+                    if (srcdata[i] == data[j][search_len[j]])
+                        search_len[j]++;
+                    else
+                        search_len[j] = 0;
+                    if (search_len[j] + 1 == data[j].Length)
+                    {
+                        return_value[j].Add(i - search_len[j] + 1);
+                        search_len[j] = 0;
+                    }
+                }
+            }
+            return return_value;
+        }
+
+
+
         public static void AnalysisRawData(ref byte[] srcdata,ref List<TransData_Struct> RecvArray)
         {
             bool isSearch = true;
