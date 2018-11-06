@@ -277,7 +277,7 @@ int main(void)
 	Timer_Config();
 	delay_init(100);  //初始化延时函数
 	#ifndef Test_Define
-	uart_init(921600/6.25);		//初始化串口波特率为115200
+	//uart_init(921600/6.25);		//初始化串口波特率为115200
 	#else
 	uart_init(115200/6.25);		//初始化串口波特率为115200
 	#endif
@@ -322,7 +322,15 @@ int main(void)
 		FLASH_DATA.DEVICE_ID[8] = 0;
 		
 		STMFLASH_Write(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(FLASH_SAVE) / 4);
+		
+		
+		uart_init(115200/6.25);		//初始化串口波特率为115200
+		delay_ms(2000);	
+		printf("AT+UART=921600,8,1,0,0\r\n");
+		delay_ms(2000);	
+		
 	}
+	uart_init(921600/6.25);		//初始化串口波特率为115200
 	
 	for (i = 0; i < 8; i++)
 			BordID[i] = FLASH_DATA.DEVICE_ID[i];
