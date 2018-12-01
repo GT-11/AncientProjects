@@ -276,8 +276,67 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
 	Timer_Config();
 	delay_init(100);  //初始化延时函数
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	i = sizeof(FLASH_SAVE);
+	STMFLASH_Read(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(FLASH_SAVE) / 4);
+	
+	if(FLASH_DATA.DEVICE_ID[0] == 0xff)
+	{
+		OLED_Init( );	 
+		OLED_Clear( );
+		OLED_ShowString(0,0,"Initialization..",16);
+		OLED_ShowString(0,2,"Do Not Turn off",16);
+		Random_Adc_Init();
+		for (random_i = 0; random_i < 1024;random_i++)
+			random_srand += Get_Adc(ADC_Channel_1);
+		srand(random_srand);
+		FLASH_DATA.DEVICE_ID[0] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[1] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[2] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[3] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[4] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[5] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[6] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[7] = (rand() % 26) + 'A';
+		FLASH_DATA.DEVICE_ID[8] = 0;
+		
+		
+		delay_ms(200);
+		STMFLASH_Write(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(FLASH_SAVE) / 4);
+		
+		
+		uart_init(115200/6.25);		//初始化串口波特率为115200
+		delay_ms(2000);	
+		printf("AT+UART=921600,8,1,0,0\r\n");
+		delay_ms(2000);	
+		GPIO_ResetBits(GPIOB,GPIO_Pin_0);
+		OLED_Clear( );
+		OLED_ShowString(0,0,"Please turn off",16);
+		while(1);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	#ifndef Test_Define
-	//uart_init(921600/6.25);		//初始化串口波特率为115200
+	uart_init(921600/6.25);		//初始化串口波特率为115200
 	#else
 	uart_init(115200/6.25);		//初始化串口波特率为115200
 	#endif
@@ -299,38 +358,6 @@ int main(void)
 	
 	NRF24L01_Init();
 	
-	
-	i = sizeof(FLASH_SAVE);
-	STMFLASH_Read(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(FLASH_SAVE) / 4);
-	
-	if(FLASH_DATA.DEVICE_ID[0] == 0xff)
-	{
-		Random_Adc_Init();
-		//ADC_RegularChannelConfig(ADC1, ADC_Channel_1, 1, ADC_SampleTime_480Cycles );	//ADC1,ADC通道,480个周期,提高采样时间可以提高精确度			    
-		//ADC_SoftwareStartConv(ADC1);		//使能指定的ADC1的软件转换启动功能	
-		for (random_i = 0; random_i < 1024;random_i++)
-			random_srand += Get_Adc(ADC_Channel_1);
-		srand(random_srand);
-		FLASH_DATA.DEVICE_ID[0] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[1] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[2] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[3] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[4] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[5] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[6] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[7] = (rand() % 26) + 'A';
-		FLASH_DATA.DEVICE_ID[8] = 0;
-		
-		STMFLASH_Write(FLASH_SAVE_ADDR,(u32*)&FLASH_DATA,sizeof(FLASH_SAVE) / 4);
-		
-		
-		uart_init(115200/6.25);		//初始化串口波特率为115200
-		delay_ms(2000);	
-		printf("AT+UART=921600,8,1,0,0\r\n");
-		delay_ms(2000);	
-		
-	}
-	uart_init(921600/6.25);		//初始化串口波特率为115200
 	
 	for (i = 0; i < 8; i++)
 			BordID[i] = FLASH_DATA.DEVICE_ID[i];
