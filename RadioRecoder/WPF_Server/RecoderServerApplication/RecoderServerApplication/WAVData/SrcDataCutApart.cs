@@ -41,7 +41,7 @@ namespace RecoderServerApplication.WAVData
             {
                 if(List_WavFile.Count > 0)
                     List_WavFile[List_WavFile.Count - 1].Full_File_NotClose();
-                List_WavFile.Add(new Wav_Creater(dirstr + create_first_time.AddSeconds(List_WavFile.Count * single_time).ToString("yyyy-MM-dd HH.mm.ss") + ".wav", Frequency, singlefile_size));
+                List_WavFile.Add(new Wav_Creater(dirstr + create_first_time.AddSeconds(List_WavFile.Count * single_time).ToString("yyyy-MM-dd-HH-mm-ss") +"-000_REC"+ ".wav", Frequency, singlefile_size));
             }
 
             if (surplusdata_len > singlefile_size - file_relv_loc)
