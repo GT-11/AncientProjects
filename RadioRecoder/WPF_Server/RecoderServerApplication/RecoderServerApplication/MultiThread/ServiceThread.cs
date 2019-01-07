@@ -161,7 +161,8 @@ namespace RecoderServerApplication.MultiThread
                         dstate = Device_State.WaitingRecording;
                         if (WavCreate == null)
                         {
-                            //Directory.CreateDirectory(Dir +"\\"+ Device_Recv_Struct.Device_ID);
+                            // Directory.CreateDirectory(Dir +"\\"+ Device_Recv_Struct.Device_ID);
+                            Directory.CreateDirectory(Dir);
                             WavCreate = new SrcDataCutApart(Fre, Sec, Dir + "\\" + Device_Recv_Struct.Device_ID + "_");
                         }
                     }
