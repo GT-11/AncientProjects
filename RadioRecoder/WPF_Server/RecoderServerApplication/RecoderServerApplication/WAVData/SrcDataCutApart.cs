@@ -8,7 +8,7 @@ namespace RecoderServerApplication.WAVData
 {
     class SrcDataCutApart
     {
-        private List<Wav_Creater> List_WavFile = new List<Wav_Creater>();
+        private List<Speex_Creater> List_WavFile = new List<Speex_Creater>();
         private int Frequency;
         private uint singlefile_size;
         private string dirstr;
@@ -18,14 +18,14 @@ namespace RecoderServerApplication.WAVData
         {
             public string file;
             public uint Repair;
-            public List<Wav_Creater.DeformityData> errorlist;
+            public List<Speex_Creater.DeformityData> errorlist;
         }
 
         public SrcDataCutApart(int fre,int single_file_time, string dir)
         {
             Frequency = fre;
             single_time = single_file_time;
-            singlefile_size = (uint)(single_file_time * 2 * fre);
+            singlefile_size = (uint)(single_file_time * 2 * fre / 16);
             dirstr = dir;
         }
         public void WriteWavData(byte[] wavdata , uint start_index , DateTime create_first_time)
@@ -41,7 +41,7 @@ namespace RecoderServerApplication.WAVData
             {
                 if(List_WavFile.Count > 0)
                     List_WavFile[List_WavFile.Count - 1].Full_File_NotClose();
-                List_WavFile.Add(new Wav_Creater(dirstr + create_first_time.AddSeconds(List_WavFile.Count * single_time).ToString("yyyy-MM-dd-HH-mm-ss") +"-000_REC"+ ".wav", Frequency, singlefile_size));
+                List_WavFile.Add(new Speex_Creater(dirstr + create_first_time.AddSeconds(List_WavFile.Count * single_time).ToString("yyyy-MM-dd-HH-mm-ss") +"-000_REC"+ ".wzr", Frequency, singlefile_size));
             }
 
             if (surplusdata_len > singlefile_size - file_relv_loc)
@@ -109,12 +109,12 @@ namespace RecoderServerApplication.WAVData
             {
                 Error_Statistical error = new Error_Statistical();
                 error.file = List_WavFile[i].filedir;
-                error.errorlist = new List<Wav_Creater.DeformityData>();
-                List<Wav_Creater.DeformityData> buf = List_WavFile[i].Get_Deformity_Data();
+                error.errorlist = new List<Speex_Creater.DeformityData>();
+                List<Speex_Creater.DeformityData> buf = List_WavFile[i].Get_Deformity_Data();
 
                 for(int j = 0; j < buf.Count; j++)
                 {
-                    error.errorlist.Add(new Wav_Creater.DeformityData(buf[j].start_location, buf[j].end_location));
+                    error.errorlist.Add(new Speex_Creater.DeformityData(buf[j].start_location, buf[j].end_location));
                 }
 
 

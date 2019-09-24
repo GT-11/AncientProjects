@@ -63,7 +63,7 @@
     <Compile Include="MultiThread\ServiceThread.cs" />
     <Compile Include="MultiThread\SoftUI_Thread.cs" />
     <Compile Include="WAVData\SrcDataCutApart.cs" />
-    <Compile Include="WAVData\Wav_Creater.cs" />
+    <Compile Include="WAVData\Speex_Creater.cs" />
     <Compile Include="RF24L01\ComPort.cs" />
     <Compile Include="RF24L01\RF_DataAnalysis.cs" />
     <Compile Include="ServerListUI.cs" />

@@ -97,7 +97,7 @@ namespace RecoderServerApplication.MultiThread
             {
                 try
                 {
-                    if (RecvData_Location == RecvData.Length)
+                    if (RecvData_Location > RecvData.Length - 500)
                         RecvData_Location = 0;
                     int recv = Ser.Receive(RecvData, RecvData_Location, RecvData.Length - RecvData_Location, SocketFlags.None);
                     if (recv > 0)

@@ -19,6 +19,7 @@ using System.IO;
 using static RecoderServerApplication.ESP8266.Protocol_Keyword_Function;
 using RecoderServerApplication.MultiThread;
 using System.Timers;
+using System.Diagnostics;
 
 namespace RecoderServerApplication
 {
@@ -34,6 +35,7 @@ namespace RecoderServerApplication
             rand.Content = "ID:" + SoftID;
             Radio_Thread.Elapsed += Radio_Thread_Elapsed;
             UIthread.Start_UI_Refresh(this);
+            //Process.Start("speex_decoder.exe","D:\\github_project\\AncientProjects\\RadioRecoder\\WPF_Server\\RecoderServerApplication\\RecoderServerApplication\\bin\\Release\\20190623225152_HS6YX83M\\HQOBJSQZ_2019-06-23-22-52-33-000_REC.wzr");
         }
         RecoderServerApplication.MultiThread.SoftUI_Thread UIthread = new SoftUI_Thread();
         string listbox_value;
